@@ -1,0 +1,843 @@
+[
+  {
+  "shortId": Number, // un shortId nous est utile au moment de l'importation du jeu de données `npm run data` car les relations y sont identifiées à l'aide d'identifiants courts
+  "email": String,
+  "password": "password",
+  "token": String, // Le token permettra d'authentifier l'utilisateur à l'aide du package `passport-http-bearer`
+  "status": String,
+
+  "candidate": {
+    "firstname": "Annaelle",
+    "lastname": "Lawson",
+    "description": "My name is Ludivine, I'm French, 29 years old and work for a communication agency specialized in food. I am passionate about food (of course!) and everything related to it. I also love reading, yoga, dogs, traveling, meeting new people and sharing a good meal with them !\nI am non smoker, easy going and love a good glass of wine! I'm quiet but don't mind living in a busy environment.\n\nI look forward to meeting you !",
+    "photo": "https://a1.muscache.com/im/users/4654829/profile_pic/1410285266/original.jpg?aki_policy=profile_x_medium",
+    "city": "Paris",
+    "loc": {"lng": Number, "lat": Number},
+    "lastConnection": Date,
+    "cv":{
+      "title": String,
+      "experience": String,
+      "competences": [{"name": String, "level": String}],
+      "languages": [{"name": String, "level": String}],
+      "degree": String,
+      "qualities": [String],
+    }
+  },
+  "recruiter": {
+    "firstname": "",
+    "lastname": "",
+    "society": "",
+    "description": "",
+    "photo": "",
+    "city": "Paris",
+    "loc": {"lng": "", "lat": ""},
+    "lastConnection": "",
+    "announces": [{
+      "title": "",
+      "description": "",
+      "competences": [{"name": "", "level": ""}],
+      "languages": [{"name": "", "level": ""}],
+      "salary": "",
+    }]
+  }
+},
+{
+"shortId": Number, // un shortId nous est utile au moment de l'importation du jeu de données `npm run data` car les relations y sont identifiées à l'aide d'identifiants courts
+"email": String,
+"password": "password",
+"token": String, // Le token permettra d'authentifier l'utilisateur à l'aide du package `passport-http-bearer`
+"status": String,
+
+"candidate": {
+  "firstname": "Melissandre",
+  "lastname": "Riley",
+  "description": "My name is Ludivine, I'm French, 29 years old and work for a communication agency specialized in food. I am passionate about food (of course!) and everything related to it. I also love reading, yoga, dogs, traveling, meeting new people and sharing a good meal with them !\nI am non smoker, easy going and love a good glass of wine! I'm quiet but don't mind living in a busy environment.\n\nI look forward to meeting you !",
+  "photo": "https://a1.muscache.com/im/users/4654829/profile_pic/1410285266/original.jpg?aki_policy=profile_x_medium",
+  "city": "Paris",
+  "loc": {"lng": Number, "lat": Number},
+  "lastConnection": Date,
+  "cv":{
+    "title": String,
+    "experience": String,
+    "competences": [{"name": String, "level": String}],
+    "languages": [{"name": String, "level": String}],
+    "degree": String,
+    "qualities": [String],
+  }
+},
+"recruiter": {
+  "firstname": "",
+  "lastname": "",
+  "society": "",
+  "description": "",
+  "photo": "",
+  "city": "Paris",
+  "loc": {"lng": "", "lat": ""},
+  "lastConnection": "",
+  "announces": [{
+    "title": "",
+    "description": "",
+    "competences": [{"name": "", "level": ""}],
+    "languages": [{"name": "", "level": ""}],
+    "salary": "",
+  }]
+}
+},
+{
+"shortId": Number, // un shortId nous est utile au moment de l'importation du jeu de données `npm run data` car les relations y sont identifiées à l'aide d'identifiants courts
+"email": String,
+"password": "password",
+"token": String, // Le token permettra d'authentifier l'utilisateur à l'aide du package `passport-http-bearer`
+"status": String,
+
+"candidate": {
+  "firstname": "Adèle",
+  "lastname": "Wells",
+  "description": "My name is Ludivine, I'm French, 29 years old and work for a communication agency specialized in food. I am passionate about food (of course!) and everything related to it. I also love reading, yoga, dogs, traveling, meeting new people and sharing a good meal with them !\nI am non smoker, easy going and love a good glass of wine! I'm quiet but don't mind living in a busy environment.\n\nI look forward to meeting you !",
+  "photo": "https://a1.muscache.com/im/users/4654829/profile_pic/1410285266/original.jpg?aki_policy=profile_x_medium",
+  "city": "Paris",
+  "loc": {"lng": Number, "lat": Number},
+  "lastConnection": Date,
+  "cv":{
+    "title": String,
+    "experience": String,
+    "competences": [{"name": String, "level": String}],
+    "languages": [{"name": String, "level": String}],
+    "degree": String,
+    "qualities": [String],
+  }
+},
+"recruiter": {
+  "firstname": "",
+  "lastname": "",
+  "society": "",
+  "description": "",
+  "photo": "",
+  "city": "Paris",
+  "loc": {"lng": "", "lat": ""},
+  "lastConnection": "",
+  "announces": [{
+    "title": "",
+    "description": "",
+    "competences": [{"name": "", "level": ""}],
+    "languages": [{"name": "", "level": ""}],
+    "salary": "",
+  }]
+}
+},
+{
+"shortId": Number, // un shortId nous est utile au moment de l'importation du jeu de données `npm run data` car les relations y sont identifiées à l'aide d'identifiants courts
+"email": String,
+"password": "password",
+"token": String, // Le token permettra d'authentifier l'utilisateur à l'aide du package `passport-http-bearer`
+"status": String,
+
+"candidate": {
+  "firstname": "Ophélie",
+  "lastname": "Evans",
+  "description": "My name is Ludivine, I'm French, 29 years old and work for a communication agency specialized in food. I am passionate about food (of course!) and everything related to it. I also love reading, yoga, dogs, traveling, meeting new people and sharing a good meal with them !\nI am non smoker, easy going and love a good glass of wine! I'm quiet but don't mind living in a busy environment.\n\nI look forward to meeting you !",
+  "photo": "https://a1.muscache.com/im/users/4654829/profile_pic/1410285266/original.jpg?aki_policy=profile_x_medium",
+  "city": "Paris",
+  "loc": {"lng": Number, "lat": Number},
+  "lastConnection": Date,
+  "cv":{
+    "title": String,
+    "experience": String,
+    "competences": [{"name": String, "level": String}],
+    "languages": [{"name": String, "level": String}],
+    "degree": String,
+    "qualities": [String],
+  }
+},
+"recruiter": {
+  "firstname": "",
+  "lastname": "",
+  "society": "",
+  "description": "",
+  "photo": "",
+  "city": "Paris",
+  "loc": {"lng": "", "lat": ""},
+  "lastConnection": "",
+  "announces": [{
+    "title": "",
+    "description": "",
+    "competences": [{"name": "", "level": ""}],
+    "languages": [{"name": "", "level": ""}],
+    "salary": "",
+  }]
+}
+},
+{
+"shortId": Number, // un shortId nous est utile au moment de l'importation du jeu de données `npm run data` car les relations y sont identifiées à l'aide d'identifiants courts
+"email": String,
+"password": "password",
+"token": String, // Le token permettra d'authentifier l'utilisateur à l'aide du package `passport-http-bearer`
+"status": String,
+
+"candidate": {
+  "firstname": "Clélia",
+  "lastname": "Weaver",
+  "description": "My name is Ludivine, I'm French, 29 years old and work for a communication agency specialized in food. I am passionate about food (of course!) and everything related to it. I also love reading, yoga, dogs, traveling, meeting new people and sharing a good meal with them !\nI am non smoker, easy going and love a good glass of wine! I'm quiet but don't mind living in a busy environment.\n\nI look forward to meeting you !",
+  "photo": "https://a1.muscache.com/im/users/4654829/profile_pic/1410285266/original.jpg?aki_policy=profile_x_medium",
+  "city": "Paris",
+  "loc": {"lng": Number, "lat": Number},
+  "lastConnection": Date,
+  "cv":{
+    "title": String,
+    "experience": String,
+    "competences": [{"name": String, "level": String}],
+    "languages": [{"name": String, "level": String}],
+    "degree": String,
+    "qualities": [String],
+  }
+},
+"recruiter": {
+  "firstname": "",
+  "lastname": "",
+  "society": "",
+  "description": "",
+  "photo": "",
+  "city": "Paris",
+  "loc": {"lng": "", "lat": ""},
+  "lastConnection": "",
+  "announces": [{
+    "title": "",
+    "description": "",
+    "competences": [{"name": "", "level": ""}],
+    "languages": [{"name": "", "level": ""}],
+    "salary": "",
+  }]
+}
+},
+{
+"shortId": Number, // un shortId nous est utile au moment de l'importation du jeu de données `npm run data` car les relations y sont identifiées à l'aide d'identifiants courts
+"email": String,
+"password": "password",
+"token": String, // Le token permettra d'authentifier l'utilisateur à l'aide du package `passport-http-bearer`
+"status": String,
+
+"candidate": {
+  "firstname": "Inès",
+  "lastname": "Schmidt",
+  "description": "My name is Ludivine, I'm French, 29 years old and work for a communication agency specialized in food. I am passionate about food (of course!) and everything related to it. I also love reading, yoga, dogs, traveling, meeting new people and sharing a good meal with them !\nI am non smoker, easy going and love a good glass of wine! I'm quiet but don't mind living in a busy environment.\n\nI look forward to meeting you !",
+  "photo": "https://a1.muscache.com/im/users/4654829/profile_pic/1410285266/original.jpg?aki_policy=profile_x_medium",
+  "city": "Paris",
+  "loc": {"lng": Number, "lat": Number},
+  "lastConnection": Date,
+  "cv":{
+    "title": String,
+    "experience": String,
+    "competences": [{"name": String, "level": String}],
+    "languages": [{"name": String, "level": String}],
+    "degree": String,
+    "qualities": [String],
+  }
+},
+"recruiter": {
+  "firstname": "",
+  "lastname": "",
+  "society": "",
+  "description": "",
+  "photo": "",
+  "city": "Paris",
+  "loc": {"lng": "", "lat": ""},
+  "lastConnection": "",
+  "announces": [{
+    "title": "",
+    "description": "",
+    "competences": [{"name": "", "level": ""}],
+    "languages": [{"name": "", "level": ""}],
+    "salary": "",
+  }]
+}
+},
+{
+"shortId": Number, // un shortId nous est utile au moment de l'importation du jeu de données `npm run data` car les relations y sont identifiées à l'aide d'identifiants courts
+"email": String,
+"password": "password",
+"token": String, // Le token permettra d'authentifier l'utilisateur à l'aide du package `passport-http-bearer`
+"status": String,
+
+"candidate": {
+  "firstname": "Aurélie",
+  "lastname": "Hamilton",
+  "description": "My name is Ludivine, I'm French, 29 years old and work for a communication agency specialized in food. I am passionate about food (of course!) and everything related to it. I also love reading, yoga, dogs, traveling, meeting new people and sharing a good meal with them !\nI am non smoker, easy going and love a good glass of wine! I'm quiet but don't mind living in a busy environment.\n\nI look forward to meeting you !",
+  "photo": "https://a1.muscache.com/im/users/4654829/profile_pic/1410285266/original.jpg?aki_policy=profile_x_medium",
+  "city": "Paris",
+  "loc": {"lng": Number, "lat": Number},
+  "lastConnection": Date,
+  "cv":{
+    "title": String,
+    "experience": String,
+    "competences": [{"name": String, "level": String}],
+    "languages": [{"name": String, "level": String}],
+    "degree": String,
+    "qualities": [String],
+  }
+},
+"recruiter": {
+  "firstname": "",
+  "lastname": "",
+  "society": "",
+  "description": "",
+  "photo": "",
+  "city": "Paris",
+  "loc": {"lng": "", "lat": ""},
+  "lastConnection": "",
+  "announces": [{
+    "title": "",
+    "description": "",
+    "competences": [{"name": "", "level": ""}],
+    "languages": [{"name": "", "level": ""}],
+    "salary": "",
+  }]
+}
+},
+{
+"shortId": Number, // un shortId nous est utile au moment de l'importation du jeu de données `npm run data` car les relations y sont identifiées à l'aide d'identifiants courts
+"email": String,
+"password": "password",
+"token": String, // Le token permettra d'authentifier l'utilisateur à l'aide du package `passport-http-bearer`
+"status": String,
+
+"candidate": {
+  "firstname": "Gisèle",
+  "lastname": "Richards",
+  "description": "My name is Ludivine, I'm French, 29 years old and work for a communication agency specialized in food. I am passionate about food (of course!) and everything related to it. I also love reading, yoga, dogs, traveling, meeting new people and sharing a good meal with them !\nI am non smoker, easy going and love a good glass of wine! I'm quiet but don't mind living in a busy environment.\n\nI look forward to meeting you !",
+  "photo": "https://a1.muscache.com/im/users/4654829/profile_pic/1410285266/original.jpg?aki_policy=profile_x_medium",
+  "city": "Paris",
+  "loc": {"lng": Number, "lat": Number},
+  "lastConnection": Date,
+  "cv":{
+    "title": String,
+    "experience": String,
+    "competences": [{"name": String, "level": String}],
+    "languages": [{"name": String, "level": String}],
+    "degree": String,
+    "qualities": [String],
+  }
+},
+"recruiter": {
+  "firstname": "",
+  "lastname": "",
+  "society": "",
+  "description": "",
+  "photo": "",
+  "city": "Paris",
+  "loc": {"lng": "", "lat": ""},
+  "lastConnection": "",
+  "announces": [{
+    "title": "",
+    "description": "",
+    "competences": [{"name": "", "level": ""}],
+    "languages": [{"name": "", "level": ""}],
+    "salary": "",
+  }]
+}
+},
+{
+"shortId": Number, // un shortId nous est utile au moment de l'importation du jeu de données `npm run data` car les relations y sont identifiées à l'aide d'identifiants courts
+"email": String,
+"password": "password",
+"token": String, // Le token permettra d'authentifier l'utilisateur à l'aide du package `passport-http-bearer`
+"status": String,
+
+"candidate": {
+  "firstname": "Severine",
+  "lastname": "Lee",
+  "description": "My name is Ludivine, I'm French, 29 years old and work for a communication agency specialized in food. I am passionate about food (of course!) and everything related to it. I also love reading, yoga, dogs, traveling, meeting new people and sharing a good meal with them !\nI am non smoker, easy going and love a good glass of wine! I'm quiet but don't mind living in a busy environment.\n\nI look forward to meeting you !",
+  "photo": "https://a1.muscache.com/im/users/4654829/profile_pic/1410285266/original.jpg?aki_policy=profile_x_medium",
+  "city": "Paris",
+  "loc": {"lng": Number, "lat": Number},
+  "lastConnection": Date,
+  "cv":{
+    "title": String,
+    "experience": String,
+    "competences": [{"name": String, "level": String}],
+    "languages": [{"name": String, "level": String}],
+    "degree": String,
+    "qualities": [String],
+  }
+},
+"recruiter": {
+  "firstname": "",
+  "lastname": "",
+  "society": "",
+  "description": "",
+  "photo": "",
+  "city": "Paris",
+  "loc": {"lng": "", "lat": ""},
+  "lastConnection": "",
+  "announces": [{
+    "title": "",
+    "description": "",
+    "competences": [{"name": "", "level": ""}],
+    "languages": [{"name": "", "level": ""}],
+    "salary": "",
+  }]
+}
+},
+{
+"shortId": Number, // un shortId nous est utile au moment de l'importation du jeu de données `npm run data` car les relations y sont identifiées à l'aide d'identifiants courts
+"email": String,
+"password": "password",
+"token": String, // Le token permettra d'authentifier l'utilisateur à l'aide du package `passport-http-bearer`
+"status": String,
+
+"candidate": {
+  "firstname": "Felicie",
+  "lastname": "Martin",
+  "description": "My name is Ludivine, I'm French, 29 years old and work for a communication agency specialized in food. I am passionate about food (of course!) and everything related to it. I also love reading, yoga, dogs, traveling, meeting new people and sharing a good meal with them !\nI am non smoker, easy going and love a good glass of wine! I'm quiet but don't mind living in a busy environment.\n\nI look forward to meeting you !",
+  "photo": "https://a1.muscache.com/im/users/4654829/profile_pic/1410285266/original.jpg?aki_policy=profile_x_medium",
+  "city": "Paris",
+  "loc": {"lng": Number, "lat": Number},
+  "lastConnection": Date,
+  "cv":{
+    "title": String,
+    "experience": String,
+    "competences": [{"name": String, "level": String}],
+    "languages": [{"name": String, "level": String}],
+    "degree": String,
+    "qualities": [String],
+  }
+},
+"recruiter": {
+  "firstname": "",
+  "lastname": "",
+  "society": "",
+  "description": "",
+  "photo": "",
+  "city": "Paris",
+  "loc": {"lng": "", "lat": ""},
+  "lastConnection": "",
+  "announces": [{
+    "title": "",
+    "description": "",
+    "competences": [{"name": "", "level": ""}],
+    "languages": [{"name": "", "level": ""}],
+    "salary": "",
+  }]
+}
+},
+{
+"shortId": Number, // un shortId nous est utile au moment de l'importation du jeu de données `npm run data` car les relations y sont identifiées à l'aide d'identifiants courts
+"email": String,
+"password": "password",
+"token": String, // Le token permettra d'authentifier l'utilisateur à l'aide du package `passport-http-bearer`
+"status": String,
+
+"candidate": {
+  "firstname": { type: "", required: true },
+  "lastname": { type: "", required: true },
+  "description": "",
+  "photo": "",
+  "city": "Paris",
+  "loc": {"lng": "", "lat": ""},
+  "lastConnection": "",
+  "cv":{
+    "title": "",
+    "experience": "",
+    "competences": [{"name": "", "level": ""}],
+    "languages": [{"name": "", "level": ""}],
+    "degree": "",
+    "qualities": [""],
+  }
+},
+"recruiter": {
+  "firstname": "Joseph",
+  "lastname": "Cooper",
+  "society": "FNAC",
+  "description": String,
+  "photo": "https://a1.muscache.com/im/users/29318295/profile_pic/1426344329/original.jpg?aki_policy=profile_x_medium",
+  "city": "Paris",
+  "loc": {"lng": Number, "lat": Number},
+  "lastConnection": Date,
+  "announces": [{
+    "title": String,
+    "description": String,
+    "competences": [{"name": String, "level": String}],
+    "languages": [{"name": String, "level": String}],
+    "salary": Number,
+  }]
+}
+},
+{
+"shortId": Number, // un shortId nous est utile au moment de l'importation du jeu de données `npm run data` car les relations y sont identifiées à l'aide d'identifiants courts
+"email": String,
+"password": "password",
+"token": String, // Le token permettra d'authentifier l'utilisateur à l'aide du package `passport-http-bearer`
+"status": String,
+
+"candidate": {
+  "firstname": { type: "", required: true },
+  "lastname": { type: "", required: true },
+  "description": "",
+  "photo": "",
+  "city": "Paris",
+  "loc": {"lng": "", "lat": ""},
+  "lastConnection": "",
+  "cv":{
+    "title": "",
+    "experience": "",
+    "competences": [{"name": "", "level": ""}],
+    "languages": [{"name": "", "level": ""}],
+    "degree": "",
+    "qualities": [""],
+  }
+},
+"recruiter": {
+  "firstname": "Carlos",
+  "lastname": "Willis",
+  "society": "Darty",
+  "description": String,
+  "photo": "https://a1.muscache.com/im/users/29318295/profile_pic/1426344329/original.jpg?aki_policy=profile_x_medium",
+  "city": "Paris",
+  "loc": {"lng": Number, "lat": Number},
+  "lastConnection": Date,
+  "announces": [{
+    "title": String,
+    "description": String,
+    "competences": [{"name": String, "level": String}],
+    "languages": [{"name": String, "level": String}],
+    "salary": Number,
+  }]
+}
+},
+{
+"shortId": Number, // un shortId nous est utile au moment de l'importation du jeu de données `npm run data` car les relations y sont identifiées à l'aide d'identifiants courts
+"email": String,
+"password": "password",
+"token": String, // Le token permettra d'authentifier l'utilisateur à l'aide du package `passport-http-bearer`
+"status": String,
+
+"candidate": {
+  "firstname": { type: "", required: true },
+  "lastname": { type: "", required: true },
+  "description": "",
+  "photo": "",
+  "city": "Paris",
+  "loc": {"lng": "", "lat": ""},
+  "lastConnection": "",
+  "cv":{
+    "title": "",
+    "experience": "",
+    "competences": [{"name": "", "level": ""}],
+    "languages": [{"name": "", "level": ""}],
+    "degree": "",
+    "qualities": [""],
+  }
+},
+"recruiter": {
+  "firstname": "Franck",
+  "lastname": "Welch",
+  "society": "Boulanger",
+  "description": String,
+  "photo": "https://a1.muscache.com/im/users/29318295/profile_pic/1426344329/original.jpg?aki_policy=profile_x_medium",
+  "city": "Paris",
+  "loc": {"lng": Number, "lat": Number},
+  "lastConnection": Date,
+  "announces": [{
+    "title": String,
+    "description": String,
+    "competences": [{"name": String, "level": String}],
+    "languages": [{"name": String, "level": String}],
+    "salary": Number,
+  }]
+}
+},
+{
+"shortId": Number, // un shortId nous est utile au moment de l'importation du jeu de données `npm run data` car les relations y sont identifiées à l'aide d'identifiants courts
+"email": String,
+"password": "password",
+"token": String, // Le token permettra d'authentifier l'utilisateur à l'aide du package `passport-http-bearer`
+"status": String,
+
+"candidate": {
+  "firstname": { type: "", required: true },
+  "lastname": { type: "", required: true },
+  "description": "",
+  "photo": "",
+  "city": "Paris",
+  "loc": {"lng": "", "lat": ""},
+  "lastConnection": "",
+  "cv":{
+    "title": "",
+    "experience": "",
+    "competences": [{"name": "", "level": ""}],
+    "languages": [{"name": "", "level": ""}],
+    "degree": "",
+    "qualities": [""],
+  }
+},
+"recruiter": {
+  "firstname": "Kevin",
+  "lastname": "Ray",
+  "society": "Nestlé",
+  "description": String,
+  "photo": "https://a1.muscache.com/im/users/29318295/profile_pic/1426344329/original.jpg?aki_policy=profile_x_medium",
+  "city": "Paris",
+  "loc": {"lng": Number, "lat": Number},
+  "lastConnection": Date,
+  "announces": [{
+    "title": String,
+    "description": String,
+    "competences": [{"name": String, "level": String}],
+    "languages": [{"name": String, "level": String}],
+    "salary": Number,
+  }]
+}
+},
+{
+"shortId": Number, // un shortId nous est utile au moment de l'importation du jeu de données `npm run data` car les relations y sont identifiées à l'aide d'identifiants courts
+"email": String,
+"password": "password",
+"token": String, // Le token permettra d'authentifier l'utilisateur à l'aide du package `passport-http-bearer`
+"status": String,
+
+"candidate": {
+  "firstname": { type: "", required: true },
+  "lastname": { type: "", required: true },
+  "description": "",
+  "photo": "",
+  "city": "Paris",
+  "loc": {"lng": "", "lat": ""},
+  "lastConnection": "",
+  "cv":{
+    "title": "",
+    "experience": "",
+    "competences": [{"name": "", "level": ""}],
+    "languages": [{"name": "", "level": ""}],
+    "degree": "",
+    "qualities": [""],
+  }
+},
+"recruiter": {
+  "firstname": "Eric",
+  "lastname": "Dickson",
+  "society": "Spie",
+  "description": String,
+  "photo": "https://a1.muscache.com/im/users/29318295/profile_pic/1426344329/original.jpg?aki_policy=profile_x_medium",
+  "city": "Paris",
+  "loc": {"lng": Number, "lat": Number},
+  "lastConnection": Date,
+  "announces": [{
+    "title": String,
+    "description": String,
+    "competences": [{"name": String, "level": String}],
+    "languages": [{"name": String, "level": String}],
+    "salary": Number,
+  }]
+}
+},
+{
+"shortId": Number, // un shortId nous est utile au moment de l'importation du jeu de données `npm run data` car les relations y sont identifiées à l'aide d'identifiants courts
+"email": String,
+"password": "password",
+"token": String, // Le token permettra d'authentifier l'utilisateur à l'aide du package `passport-http-bearer`
+"status": String,
+
+"candidate": {
+  "firstname": { type: "", required: true },
+  "lastname": { type: "", required: true },
+  "description": "",
+  "photo": "",
+  "city": "Paris",
+  "loc": {"lng": "", "lat": ""},
+  "lastConnection": "",
+  "cv":{
+    "title": "",
+    "experience": "",
+    "competences": [{"name": "", "level": ""}],
+    "languages": [{"name": "", "level": ""}],
+    "degree": "",
+    "qualities": [""],
+  }
+},
+"recruiter": {
+  "firstname": "Bobby",
+  "lastname": "Bell",
+  "society": "Nike",
+  "description": String,
+  "photo": "https://a1.muscache.com/im/users/29318295/profile_pic/1426344329/original.jpg?aki_policy=profile_x_medium",
+  "city": "Paris",
+  "loc": {"lng": Number, "lat": Number},
+  "lastConnection": Date,
+  "announces": [{
+    "title": String,
+    "description": String,
+    "competences": [{"name": String, "level": String}],
+    "languages": [{"name": String, "level": String}],
+    "salary": Number,
+  }]
+}
+},
+{
+"shortId": Number, // un shortId nous est utile au moment de l'importation du jeu de données `npm run data` car les relations y sont identifiées à l'aide d'identifiants courts
+"email": String,
+"password": "password",
+"token": String, // Le token permettra d'authentifier l'utilisateur à l'aide du package `passport-http-bearer`
+"status": String,
+
+"candidate": {
+  "firstname": { type: "", required: true },
+  "lastname": { type: "", required: true },
+  "description": "",
+  "photo": "",
+  "city": "Paris",
+  "loc": {"lng": "", "lat": ""},
+  "lastConnection": "",
+  "cv":{
+    "title": "",
+    "experience": "",
+    "competences": [{"name": "", "level": ""}],
+    "languages": [{"name": "", "level": ""}],
+    "degree": "",
+    "qualities": [""],
+  }
+},
+"recruiter": {
+  "firstname": "Billy",
+  "lastname": "Wilson",
+  "society": "Micromania",
+  "description": String,
+  "photo": "https://a1.muscache.com/im/users/29318295/profile_pic/1426344329/original.jpg?aki_policy=profile_x_medium",
+  "city": "Paris",
+  "loc": {"lng": Number, "lat": Number},
+  "lastConnection": Date,
+  "announces": [{
+    "title": String,
+    "description": String,
+    "competences": [{"name": String, "level": String}],
+    "languages": [{"name": String, "level": String}],
+    "salary": Number,
+  }]
+}
+},
+{
+"shortId": Number, // un shortId nous est utile au moment de l'importation du jeu de données `npm run data` car les relations y sont identifiées à l'aide d'identifiants courts
+"email": String,
+"password": "password",
+"token": String, // Le token permettra d'authentifier l'utilisateur à l'aide du package `passport-http-bearer`
+"status": String,
+
+"candidate": {
+  "firstname": { type: "", required: true },
+  "lastname": { type: "", required: true },
+  "description": "",
+  "photo": "",
+  "city": "Paris",
+  "loc": {"lng": "", "lat": ""},
+  "lastConnection": "",
+  "cv":{
+    "title": "",
+    "experience": "",
+    "competences": [{"name": "", "level": ""}],
+    "languages": [{"name": "", "level": ""}],
+    "degree": "",
+    "qualities": [""],
+  }
+},
+"recruiter": {
+  "firstname": "James",
+  "lastname": "Morales",
+  "society": "Apple",
+  "description": String,
+  "photo": "https://a1.muscache.com/im/users/29318295/profile_pic/1426344329/original.jpg?aki_policy=profile_x_medium",
+  "city": "Paris",
+  "loc": {"lng": Number, "lat": Number},
+  "lastConnection": Date,
+  "announces": [{
+    "title": String,
+    "description": String,
+    "competences": [{"name": String, "level": String}],
+    "languages": [{"name": String, "level": String}],
+    "salary": Number,
+  }]
+}
+},
+{
+"shortId": Number, // un shortId nous est utile au moment de l'importation du jeu de données `npm run data` car les relations y sont identifiées à l'aide d'identifiants courts
+"email": String,
+"password": "password",
+"token": String, // Le token permettra d'authentifier l'utilisateur à l'aide du package `passport-http-bearer`
+"status": String,
+
+"candidate": {
+  "firstname": { type: "", required: true },
+  "lastname": { type: "", required: true },
+  "description": "",
+  "photo": "",
+  "city": "Paris",
+  "loc": {"lng": "", "lat": ""},
+  "lastConnection": "",
+  "cv":{
+    "title": "",
+    "experience": "",
+    "competences": [{"name": "", "level": ""}],
+    "languages": [{"name": "", "level": ""}],
+    "degree": "",
+    "qualities": [""],
+  }
+},
+"recruiter": {
+  "firstname": "Charles",
+  "lastname": "Rose",
+  "society": "Hippopotamus",
+  "description": String,
+  "photo": "https://a1.muscache.com/im/users/29318295/profile_pic/1426344329/original.jpg?aki_policy=profile_x_medium",
+  "city": "Paris",
+  "loc": {"lng": Number, "lat": Number},
+  "lastConnection": Date,
+  "announces": [{
+    "title": String,
+    "description": String,
+    "competences": [{"name": String, "level": String}],
+    "languages": [{"name": String, "level": String}],
+    "salary": Number,
+  }]
+}
+},
+{
+"shortId": Number, // un shortId nous est utile au moment de l'importation du jeu de données `npm run data` car les relations y sont identifiées à l'aide d'identifiants courts
+"email": String,
+"password": "password",
+"token": String, // Le token permettra d'authentifier l'utilisateur à l'aide du package `passport-http-bearer`
+"status": String,
+
+"candidate": {
+  "firstname": { type: "", required: true },
+  "lastname": { type: "", required: true },
+  "description": "",
+  "photo": "",
+  "city": "Paris",
+  "loc": {"lng": "", "lat": ""},
+  "lastConnection": "",
+  "cv":{
+    "title": "",
+    "experience": "",
+    "competences": [{"name": "", "level": ""}],
+    "languages": [{"name": "", "level": ""}],
+    "degree": "",
+    "qualities": [""],
+  }
+},
+"recruiter": {
+  "firstname": "Paul",
+  "lastname": "Duncan",
+  "society": "Buffalo Grill",
+  "description": String,
+  "photo": "https://a1.muscache.com/im/users/29318295/profile_pic/1426344329/original.jpg?aki_policy=profile_x_medium",
+  "city": "Paris",
+  "loc": {"lng": Number, "lat": Number},
+  "lastConnection": Date,
+  "announces": [{
+    "title": String,
+    "description": String,
+    "competences": [{"name": String, "level": String}],
+    "languages": [{"name": String, "level": String}],
+    "salary": Number,
+  }]
+}
+},
+
+]
