@@ -10,13 +10,13 @@ var UserSchema = new mongoose.Schema({
 
   // Nous choisisons de créer un objet `account` dans lequel nous stockerons les informations non sensibles
   candidate: {
-    firstname: { type: String, required: true },
-    lastname: { type: String, required: true },
+    firstname: String,
+    lastname: String,
     description: String,
     photo: String,
     city: String,
     loc: {lng: Number, lat: Number},
-    lastConnection: Date,
+    lastConnection: Number,
     cv:{
       // type: mongoose.Schema.Types.ObjectId,
       // ref: "Room"
@@ -29,8 +29,8 @@ var UserSchema = new mongoose.Schema({
     }
   }, // candidate
   recruiter: {
-    firstname: { type: String, required: true },
-    lastname: { type: String, required: true },
+    firstname: String,
+    lastname: String,
     society: String,
     description: String,
     photo: String,
