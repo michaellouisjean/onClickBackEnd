@@ -7,44 +7,29 @@ var UserSchema = new mongoose.Schema({
   password: String,
   token: String, // Le token permettra d'authentifier l'utilisateur à l'aide du package `passport-http-bearer`
   status: String,
-
-  // Nous choisisons de créer un objet `account` dans lequel nous stockerons les informations non sensibles
-  candidate: {
-    firstname: String,
-    lastname: String,
+  firstname: String,
+  lastname: String,
+  description: String,
+  photo: String,
+  city: String,
+  loc: {lng: Number, lat: Number},
+  lastConnection: Number,
+  society: String,
+  cv:{
+    title: String,
+    experience: String,
+    competences: [{name: String, level: String}],
+    languages: [{name: String, level: String}],
+    degree: String,
+    qualities: [String],
+  },
+  announces: [{
+    title: String,
     description: String,
-    photo: String,
-    city: String,
-    loc: {lng: Number, lat: Number},
-    lastConnection: Number,
-    cv:{
-      // type: mongoose.Schema.Types.ObjectId,
-      // ref: "Room"
-      title: String,
-      experience: String,
-      competences: [{name: String, level: String}],
-      languages: [{name: String, level: String}],
-      degree: String,
-      qualities: [String],
-    }
-  }, // candidate
-  recruiter: {
-    firstname: String,
-    lastname: String,
-    society: String,
-    description: String,
-    photo: String,
-    city: String,
-    loc: {lng: Number, lat: Number},
-    lastConnection: Date,
-    announces: [{
-      title: String,
-      description: String,
-      competences: [{name: String, level: String}],
-      languages: [{name: String, level: String}],
-      salary: Number,
-    }]
-  } // recruiter
+    competences: [{name: String, level: String}],
+    languages: [{name: String, level: String}],
+    salary: Number,
+  }]
 });
 
 UserSchema.plugin(passportLocalMongoose, {
