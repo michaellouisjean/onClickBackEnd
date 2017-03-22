@@ -26,9 +26,21 @@ router.post("/sign_up", function(req, res) {
   );
 });
 
-router.post("/update_profile", function(req, res) {
-  var obj = {};
-  
+router.post("/:id/update_candidate", function(req, res) {
+  var obj = {
+    firstname: req.body.firstname,
+    lastname: req.body.lastname,
+    description: req.body.description,
+    // photo: String, // VOIR OU STOCKER LES PHOTOS
+    cv:{
+      title: req.body.title,
+      experience: req.body.experience,
+      // competences: [{name: String, level: String}], // VOIR COMMENT LES RECUPERER
+      // languages: [{name: String, level: String}], // VOIR COMMENT LES RECUPERER
+      degree: req.body.degree,
+      // qualities: [String], // VOIR COMMENT LES RECUPERER
+    },
+  };
 
   User.update({_id: req.params.id}, {$set: obj}, function (err, user) {
     if (!err) {
@@ -39,6 +51,45 @@ router.post("/update_profile", function(req, res) {
     }
   });
 });
+
+router.post("/:id/update_recruiter", function(req, res) {
+  var obj = {
+    firstname: req.body.firstname,
+    lastname: req.body.lastname,
+    description: req.body.description,
+    // photo: String, // VOIR OU STOCKER LES PHOTOS
+    society: req.body.society,
+  };
+
+  User.update({_id: req.params.id}, {$set: obj}, function (err, user) {
+    if (!err) {
+      console.log('user updated ', user);
+    }
+    else {
+      console.log(err);
+    }
+  });
+});
+
+// router.post("/:id/update_announce", function(req, res) {
+//   var obj = {
+//     firstname: req.body.firstname,
+//     lastname: req.body.lastname,
+//     description: req.body.description,
+//     // photo: String, // VOIR OU STOCKER LES PHOTOS
+//     society: req.body.society,
+//   };
+//
+//   User.update({_id: req.params.id}, {$set: obj}, function (err, user) {
+//     if (!err) {
+//       console.log('user updated ', user);
+//     }
+//     else {
+//       console.log(err);
+//     }
+//   });
+// });
+
 
 router.post("/log_in", function(req, res, next) {
   passport.authenticate("local", { session: false }, function(err, user, info) {
