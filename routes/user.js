@@ -58,12 +58,7 @@ router.post("/log_in", function(req, res, next) {
 });
 
 router.get('/recruiters', function (req,res) {
-    User.find({status: 'recruiter'})
-    .where("loc")
-    .near({
-      center: [req.query.longitude, req.query.latitude],
-      maxDistance: 500
-    })
+  User.find({status: 'recruiter'})
     .exec()
     .then (function(user) {
       if (!user) {
@@ -79,15 +74,33 @@ router.get('/recruiters', function (req,res) {
 }); // router.get /announces
 
 router.get('/candidates', function (req,res,next) {
-    if (!req.query.lng || !req.query.lat) {
-      return next("Latitude and longitude are mandatory");
-    }
+  User.find({status: 'candidate'})
+    .exec()
+    .then (function(user) {
+      if (!user) {
+        res.status(404);
+        return next("User not found");
+      }
+      return res.json(user);
+    })
+    .catch(function(err) {
+      res.status(400);
+      return next(err.message);
+    });
+}); // router.get /candidates
 
-    User.find({status: 'candidate'})
+router.get('/track', function (req,res) {
+  // if (!req.query.lng || !req.query.lat) {
+  //   return next("Latitude and longitude are mandatory");
+  // }
+
+  User.find({status: 'candidate'})
     .where("loc")
     .near({
-      center: [req.query.lng, req.query.lat],
-      maxDistance: (100/6371)*Math.pow(10,-7)
+    //   center: [req.query.lng, req.query.lat],
+      center: [2.345914, 48.851444],
+      maxDistance: 100
+      // maxDistance: (100/6371)*Math.pow(10,-7)
       // https://docs.mongodb.com/manual/reference/operator/query/near/
       // maxDistance est peut-être en radius
     })
@@ -103,7 +116,8 @@ router.get('/candidates', function (req,res,next) {
       res.status(400);
       return next(err.message);
     });
-}); // router.get /candidates
+}); // router.get /track
+
 
 router.get("/around", function(req, res, next) {
   // Latitude et longitude sont obligatoires

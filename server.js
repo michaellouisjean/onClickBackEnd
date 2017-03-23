@@ -88,6 +88,9 @@ app.use(function(err, req, res, next) {
 app.listen(process.env.PORT, function() {
   console.log(`onClick API running on port ${process.env.PORT}`);
 });
+// app.listen(process.env.PORT, function() {
+//   console.log(`onClick API running on port ${process.env.PORT}`);
+// });
 
 // TODO test
 // console.log(`process.env.NODE_ENV = ${process.env.NODE_ENV}`);
