@@ -19,32 +19,28 @@ for (var i = 0; i < users.length; i++) {
     newUser.email = users[i].firstname.toLowerCase() + "@onclick.io",
     newUser.token = uid2(16),
     newUser.status = users[i].status,
-    newUser.candidate = {
-      firstname: users[i].firstname,
-      lastname: users[i].lastname,
-      description: users[i].description,
-      photo: users[i].photo,
-      city: users[i].city,
-      loc: {lng: users[i].loc.lng, lat: users[i].loc.lat},
-      lastConnection: users[i].lastConnection,
-      cv: users[i].cv
-    };
-  } else {
+    newUser.firstname = users[i].firstname,
+    newUser.lastname = users[i].lastname,
+    newUser.description = users[i].description,
+    newUser.photo = users[i].photo,
+    newUser.city = users[i].city,
+    newUser.loc = {lng: users[i].loc.lng, lat: users[i].loc.lat},
+    newUser.lastConnection = users[i].lastConnection,
+    newUser.cv = users[i].cv
+    } else {
     newUser.shortId = users[i].shortId,
     newUser.email = users[i].firstname.toLowerCase() + "@onclick.io",
     newUser.token = uid2(16),
     newUser.status = users[i].status,
-    newUser.recruiter = {
-      firstname: users[i].firstname,
-      lastname: users[i].lastname,
-      society: users[i].society,
-      description: users[i].description,
-      photo: users[i].photo,
-      city: users[i].city,
-      loc: {lng: users[i].loc.lng, lat: users[i].loc.lat},
-      lastConnection: users[i].lastConnection,
-      announces: users[i].announces
-    };
+    newUser.firstname = users[i].firstname,
+    newUser.lastname = users[i].lastname,
+    newUser.society = users[i].society,
+    newUser.description = users[i].description,
+    newUser.photo = users[i].photo,
+    newUser.city = users[i].city,
+    newUser.loc = {lng: users[i].loc.lng, lat: users[i].loc.lat},
+    newUser.lastConnection = users[i].lastConnection,
+    newUser.announces = users[i].announces
   }
   User.register(newUser,
     "password01",
