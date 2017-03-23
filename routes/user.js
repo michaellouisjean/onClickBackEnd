@@ -115,7 +115,6 @@ router.post("/log_in", function(req, res, next) {
     res.json({
       _id: user._id,
       token: user.token,
-      text : 'authenticate',
       status: user.status,
       firstname: user.firstname,
       lastname: user.lastname,
