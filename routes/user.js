@@ -2,6 +2,8 @@ var express = require("express");
 var router = express.Router();
 var passport = require("passport");
 var uid2 = require("uid2");
+var multer  = require('multer');
+var upload = multer({ dest: 'public/uploads/' });
 
 var User = require("../models/User.js");
 
