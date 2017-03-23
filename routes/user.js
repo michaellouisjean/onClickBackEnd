@@ -28,6 +28,68 @@ router.post("/sign_up", function(req, res) {
   );
 });
 
+router.post("/log_in", function(req, res, next) {
+  console.log('routes#user#log_in');
+  passport.authenticate("local", { session: false }, function(err, user, info) {
+    if (err) {
+      res.status(400);
+      return next(err.message);
+    }
+    if (!user) {
+      return res.status(401).json({ error: "Unauthorized" });
+    }
+    res.json({
+      _id: user._id,
+      token: user.token,
+      status: user.status,
+      firstname: user.firstname,
+      lastname: user.lastname,
+      description: user.description,
+      photo: user.photo,
+      city: user.city,
+      /*phone: user.phone,*/
+      loc: {lng: 0, lat: 0},
+      lastConnection: 0,
+      society: user.society,
+      cv: user.cv, // cv
+      announces: user.announces
+    });
+  })(req, res, next);
+});
+
+router.get('/recruiters', function (req,res) {
+    User.find({status: 'recruiter'})
+    .exec()
+    .then (function(user) {
+      if (!user) {
+        res.status(404);
+        return next("User not found");
+      }
+      return res.json(user);
+    })
+    .catch(function(err) {
+      res.status(400);
+      return next(err.message);
+    });
+}); // router.get /nnounces
+
+router.get('/candidates', function (req,res) {
+    User.find({status: 'candidate'})
+    .exec()
+    .then (function(user) {
+      if (!user) {
+        res.status(404);
+        return next("User not found");
+      }
+      return res.json(user);
+    })
+    .catch(function(err) {
+      res.status(400);
+      return next(err.message);
+    });
+}); // router.get /nnounces
+
+
 router.post("/:id/update_candidate", upload.single('photo'), function(req, res) {
   var obj = {
     firstname: req.body.firstname,
@@ -102,34 +164,6 @@ router.post("/:id/update_recruiter", upload.single('photo'), function(req, res) 
 // });
 
 
-router.post("/log_in", function(req, res, next) {
-  console.log('routes#user#log_in');
-  passport.authenticate("local", { session: false }, function(err, user, info) {
-    if (err) {
-      res.status(400);
-      return next(err.message);
-    }
-    if (!user) {
-      return res.status(401).json({ error: "Unauthorized" });
-    }
-    res.json({
-      _id: user._id,
-      token: user.token,
-      status: user.status,
-      firstname: user.firstname,
-      lastname: user.lastname,
-      description: user.description,
-      photo: user.photo,
-      city: user.city,
-      /*phone: user.phone,*/
-      loc: {lng: 0, lat: 0},
-      lastConnection: 0,
-      society: user.society,
-      cv: user.cv, // cv
-      announces: user.announces
-    });
-  })(req, res, next);
-});
 
 router.get("/:id", function(req, res) {
   User.findById(req.params.id)
@@ -160,6 +194,5 @@ router.get("/:id", function(req, res) {
       return next(err.message);
     });
 });
-
 
 module.exports = router;
