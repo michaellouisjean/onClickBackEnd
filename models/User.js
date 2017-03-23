@@ -12,7 +12,10 @@ var UserSchema = new mongoose.Schema({
   description: String,
   photo: String,
   city: String,
-  loc: {lng: Number, lat: Number},
+  loc: {
+    type: [Number], // Longitude et latitude
+    index: "2d" // Créer un index geospatial https://docs.mongodb.com/manual/core/2d/
+  },
   lastConnection: Number,
   society: String,
   cv:{

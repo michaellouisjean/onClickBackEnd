@@ -24,7 +24,7 @@ for (var i = 0; i < users.length; i++) {
     newUser.description = users[i].description,
     newUser.photo = users[i].photo,
     newUser.city = users[i].city,
-    newUser.loc = {lng: users[i].loc.lng, lat: users[i].loc.lat},
+    newUser.loc = [users[i].loc.lng, users[i].loc.lat],
     newUser.lastConnection = users[i].lastConnection,
     newUser.cv = users[i].cv
     } else {
@@ -38,7 +38,7 @@ for (var i = 0; i < users.length; i++) {
     newUser.description = users[i].description,
     newUser.photo = users[i].photo,
     newUser.city = users[i].city,
-    newUser.loc = {lng: users[i].loc.lng, lat: users[i].loc.lat},
+    newUser.loc = [users[i].loc.lng, users[i].loc.lat],
     newUser.lastConnection = users[i].lastConnection,
     newUser.announces = users[i].announces
   }
