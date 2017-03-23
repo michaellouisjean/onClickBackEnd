@@ -26,12 +26,12 @@ router.post("/sign_up", function(req, res) {
   );
 });
 
-router.post("/:id/update_candidate", function(req, res) {
+router.post("/:id/update_candidate", upload.single('photo'), function(req, res) {
   var obj = {
     firstname: req.body.firstname,
     lastname: req.body.lastname,
     description: req.body.description,
-    // photo: String, // VOIR OU STOCKER LES PHOTOS
+    photo: req.file.filename,
     city: req.body.city,
     cv: {
       title: req.body.title,
@@ -43,7 +43,7 @@ router.post("/:id/update_candidate", function(req, res) {
     },
   };
 
-  User.update({_id: req.params.id}, {$set: obj}, function (err, user) {
+  User.save({_id: req.params.id}, {$set: obj}, function (err, user) {
     if (!err) {
       console.log('user updated ', user);
     }
@@ -53,12 +53,12 @@ router.post("/:id/update_candidate", function(req, res) {
   });
 });
 
-router.post("/:id/update_recruiter", function(req, res) {
+router.post("/:id/update_recruiter", upload.single('photo'), function(req, res) {
   var obj = {
     firstname: req.body.firstname,
     lastname: req.body.lastname,
     description: req.body.description,
-    // photo: String, // VOIR OU STOCKER LES PHOTOS
+    photo: req.file.filename,
     city: req.body.city,
     society: req.body.society,
     announces: [{
@@ -70,7 +70,7 @@ router.post("/:id/update_recruiter", function(req, res) {
     }]
   };
 
-  User.update({_id: req.params.id}, {$set: obj}, function (err, user) {
+  User.save({_id: req.params.id}, {$set: obj}, function (err, user) {
     if (!err) {
       console.log('user updated ', user);
     }
