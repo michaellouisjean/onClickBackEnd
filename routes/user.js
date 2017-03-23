@@ -103,6 +103,7 @@ router.post("/:id/update_recruiter", upload.single('photo'), function(req, res) 
 
 
 router.post("/log_in", function(req, res, next) {
+  console.log('routes#user#log_in');
   passport.authenticate("local", { session: false }, function(err, user, info) {
     if (err) {
       res.status(400);
@@ -114,8 +115,19 @@ router.post("/log_in", function(req, res, next) {
     res.json({
       _id: user._id,
       token: user.token,
-      candidate: user.candidate,
-      recruiter: user.recruiter
+      text : 'authenticate',
+      status: user.status,
+      firstname: user.firstname,
+      lastname: user.lastname,
+      description: user.description,
+      photo: user.photo,
+      city: user.city,
+      /*phone: user.phone,*/
+      loc: {lng: 0, lat: 0},
+      lastConnection: 0,
+      society: user.society,
+      cv: user.cv, // cv
+      announces: user.announces
     });
   })(req, res, next);
 });
