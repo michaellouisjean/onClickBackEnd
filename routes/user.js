@@ -130,18 +130,19 @@ router.get("/:id", function(req, res) {
         res.status(404);
         return next("User not found");
       }
-      if (user.status==="candidate") {
-        return res.json({
-          _id: user._id,
-          candidate: user.candidate
-        });
-      }
-      if (user.status==="recruiter") {
-        return res.json({
-          _id: user._id,
-          recruiter: user.recruiter
-        });
-      }
+      // if (user.status==="candidate") {
+      //   return res.json({
+      //     _id: user._id,
+      //     candidate: user.candidate
+      //   });
+      // }
+      // if (user.status==="recruiter") {
+      //   return res.json({
+      //     _id: user._id,
+      //     recruiter: user.recruiter
+      //   });
+      // }
+      return res.json(user);
     })
     .catch(function(err) {
       res.status(400);
