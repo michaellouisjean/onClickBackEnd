@@ -32,7 +32,8 @@ router.post("/:id/update_candidate", function(req, res) {
     lastname: req.body.lastname,
     description: req.body.description,
     // photo: String, // VOIR OU STOCKER LES PHOTOS
-    cv:{
+    city: req.body.city,
+    cv: {
       title: req.body.title,
       experience: req.body.experience,
       // competences: [{name: String, level: String}], // VOIR COMMENT LES RECUPERER
@@ -58,7 +59,15 @@ router.post("/:id/update_recruiter", function(req, res) {
     lastname: req.body.lastname,
     description: req.body.description,
     // photo: String, // VOIR OU STOCKER LES PHOTOS
+    city: req.body.city,
     society: req.body.society,
+    announces: [{
+      title: String,
+      description: String,
+      competences: [{name: String, level: String}],
+      languages: [{name: String, level: String}],
+      salary: Number,
+    }]
   };
 
   User.update({_id: req.params.id}, {$set: obj}, function (err, user) {
