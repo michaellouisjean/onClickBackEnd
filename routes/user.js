@@ -49,7 +49,7 @@ router.post("/log_in", function(req, res, next) {
       photo: user.photo,
       city: user.city,
       /*phone: user.phone,*/
-      loc: {lng: 0, lat: 0},
+      loc: [user.loc[0], user.loc[1]],
       lastConnection: 0,
       society: user.society,
       cv: user.cv, // cv
