@@ -6,6 +6,7 @@ var multer  = require('multer');
 var upload = multer({ dest: 'public/uploads/' });
 
 var User = require("../models/User.js");
+var nearDist = 200; // Périmètre de recherche des utilisateurs
 
 router.post("/sign_up", function(req, res) {
   User.register(
@@ -57,8 +58,22 @@ router.post("/log_in", function(req, res, next) {
   })(req, res, next);
 });
 
-router.get('/recruiters', function (req,res) {
+function getRadians(meters) {
+  var km = meters / 1000;
+  return km / 111.2;
+}
+
+router.get('/recruiters', function (req,res,next) {
+  if (!req.query.lng || !req.query.lat) {
+    return next("Latitude and longitude are mandatory");
+  }
+
   User.find({status: 'recruiter'})
+    .where("loc")
+    .near({
+      center: [req.query.lng, req.query.lat],
+      maxDistance: getRadians(nearDist),
+    })
     .exec()
     .then (function(user) {
       if (!user) {
@@ -74,7 +89,16 @@ router.get('/recruiters', function (req,res) {
 }); // router.get /announces
 
 router.get('/candidates', function (req,res,next) {
+  if (!req.query.lng || !req.query.lat) {
+    return next("Latitude and longitude are mandatory");
+  }
+
   User.find({status: 'candidate'})
+    .where("loc")
+    .near({
+      center: [req.query.lng, req.query.lat],
+      maxDistance: getRadians(nearDist),
+    })
     .exec()
     .then (function(user) {
       if (!user) {
@@ -88,58 +112,6 @@ router.get('/candidates', function (req,res,next) {
       return next(err.message);
     });
 }); // router.get /candidates
-
-router.get('/track', function (req,res) {
-  // if (!req.query.lng || !req.query.lat) {
-  //   return next("Latitude and longitude are mandatory");
-  // }
-
-  User.find({status: 'candidate'})
-    .where("loc")
-    .near({
-    //   center: [req.query.lng, req.query.lat],
-      center: [2.345914, 48.851444],
-      maxDistance: 100
-      // maxDistance: (100/6371)*Math.pow(10,-7)
-      // https://docs.mongodb.com/manual/reference/operator/query/near/
-      // maxDistance est peut-être en radius
-    })
-    .exec()
-    .then (function(user) {
-      if (!user) {
-        res.status(404);
-        return next("User not found");
-      }
-      return res.json(user);
-    })
-    .catch(function(err) {
-      res.status(400);
-      return next(err.message);
-    });
-}); // router.get /track
-
-
-router.get("/around", function(req, res, next) {
-  // Latitude et longitude sont obligatoires
-  if (!req.query.longitude || !req.query.latitude) {
-    return next("Latitude and longitude are mandatory");
-  }
-
-  Room.find()
-    .where("loc")
-    .near({
-      center: [req.query.longitude, req.query.latitude],
-      maxDistance: 50000
-    })
-    .exec()
-    .then(function(rooms) {
-      return res.json(rooms);
-    })
-    .catch(function(err) {
-      res.status(400);
-      return next(err.message);
-    });
-});
 
 router.post("/:id/update_candidate", upload.single('photo'), function(req, res) {
   var obj = {
@@ -226,18 +198,6 @@ router.get("/:id", function(req, res) {
         res.status(404);
         return next("User not found");
       }
-      // if (user.status==="candidate") {
-      //   return res.json({
-      //     _id: user._id,
-      //     candidate: user.candidate
-      //   });
-      // }
-      // if (user.status==="recruiter") {
-      //   return res.json({
-      //     _id: user._id,
-      //     recruiter: user.recruiter
-      //   });
-      // }
       return res.json(user);
     })
     .catch(function(err) {
