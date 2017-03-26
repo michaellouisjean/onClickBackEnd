@@ -45,6 +45,7 @@ router.post("/log_in", function(req, res, next) {
       status: user.status,
       firstname: user.firstname,
       lastname: user.lastname,
+      email: user.email,
       description: user.description,
       photo: user.photo,
       city: user.city,
