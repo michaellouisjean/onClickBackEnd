@@ -8,7 +8,6 @@ mongoose.connect(process.env.MONGODB_URI, function(err) {
 });
 
 var User = require("../models/User.js");
-
 var users = require("./users.json");
 
 // users
