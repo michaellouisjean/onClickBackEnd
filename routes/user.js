@@ -114,12 +114,26 @@ router.get('/candidates', function (req,res,next) {
     });
 }); // router.get /candidates
 
-router.post("/favorites", function(req, res) {
-    User.findByIdAndUpdate(_id, {$push: {favorites: _id}})
+router.post("/favorites", function(req, res, next) {
+  if (!req.query._iduser || !req.query._idfavorite) {
+    return next("ids are required");
+  }
+    User.findByIdAndUpdate(_iduser, {$push: {favorites: _idfavorite}})
     .exec()
+    .then (function(user) {
+      if (!user) {
+        res.status(404);
+        return next("User not found");
+      }
+    })
+    .catch(function(err) {
+      res.status(400);
+      return next(err.message);
+    });
 });
 
-router.post("/:id/update_candidate", upload.single('photo'), function(req, res) {
+// Routes pour mise à jour des profils
+/*router.post("/:id/update_candidate", upload.single('photo'), function(req, res) {
   var obj = {
     firstname: req.body.firstname,
     lastname: req.body.lastname,
@@ -171,28 +185,7 @@ router.post("/:id/update_recruiter", upload.single('photo'), function(req, res) 
       console.log(err);
     }
   });
-});
-
-// router.post("/:id/update_announce", function(req, res) {
-//   var obj = {
-//     firstname: req.body.firstname,
-//     lastname: req.body.lastname,
-//     description: req.body.description,
-//     // photo: String, // VOIR OU STOCKER LES PHOTOS
-//     society: req.body.society,
-//   };
-//
-//   User.update({_id: req.params.id}, {$set: obj}, function (err, user) {
-//     if (!err) {
-//       console.log('user updated ', user);
-//     }
-//     else {
-//       console.log(err);
-//     }
-//   });
-// });
-
-
+});*/
 
 router.get("/:id", function(req, res) {
   User.findById(req.params.id)
