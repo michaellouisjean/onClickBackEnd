@@ -1,4 +1,5 @@
 var mongoose = require("mongoose");
+var Schema = mongoose.Schema;
 var passportLocalMongoose = require("passport-local-mongoose");
 
 var UserSchema = new mongoose.Schema({
@@ -19,6 +20,10 @@ var UserSchema = new mongoose.Schema({
   favorites: [String],
   lastConnection: Number,
   society: String,
+  messages: [{
+    id_speaker: Schema.ObjectId,
+    id_message: Schema.ObjectId
+  }],
   cv:{
     title: String,
     experience: String,
