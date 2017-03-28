@@ -116,14 +116,23 @@ router.get('/candidates', function (req,res,next) {
 }); // router.get /candidates
 
 router.post("/favorites", function (req,res,next) {
-/*  if (!req.query._iduser || !req.query._idfavorite) {
-    return next("ids are required");
-  }*/
-  console.log('route favorites');
-  console.log('iduser ',req.query._iduser);
-  console.log('idfav ',req.query._idfavorite);
-    User.findOneAndUpdate({_id: req.query._iduser}, {$push: {favorites: req.query._idfavorite}})
-    .exec();
+  const iduser = req.query._iduser;
+  const idfavorite = req.query._idfavorite;
+  console.log(typeof(idfavorite));
+    User.findOne({_id: iduser})
+    .where({favorites: {$elemMatch: {$eq: idfavorite}}})
+    .exec()
+    .then (function(favorite) {
+      if (favorite) {
+        console.log('favorite found');
+        User.findOneAndUpdate({_id: iduser}, {$pull: {favorites: idfavorite}})
+        .exec(); 
+      } else {
+        console.log('favorite not found');
+        User.findOneAndUpdate({_id: iduser}, {$push: {favorites: idfavorite}})
+        .exec();  
+      }
+    });
 });
 
 // Routes pour mise à jour des profils
