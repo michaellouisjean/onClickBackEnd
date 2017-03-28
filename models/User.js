@@ -17,7 +17,7 @@ var UserSchema = new mongoose.Schema({
     type: [Number], // Longitude et latitude
     index: "2d" // Créer un index geospatial https://docs.mongodb.com/manual/core/2d/
   },
-  favorites: [String],
+  favorites: [Schema.ObjectId],
   lastConnection: Number,
   society: String,
   messages: [{

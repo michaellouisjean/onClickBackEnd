@@ -4,6 +4,7 @@ var passport = require("passport");
 var uid2 = require("uid2");
 var multer  = require('multer');
 var upload = multer({ dest: 'public/uploads/' });
+var mongoose = require('mongoose');
 
 var User = require("../models/User.js");
 var nearDist = 200; // Périmètre de recherche des utilisateurs
@@ -114,22 +115,15 @@ router.get('/candidates', function (req,res,next) {
     });
 }); // router.get /candidates
 
-router.post("/favorites", function(req, res, next) {
-  if (!req.query._iduser || !req.query._idfavorite) {
+router.post("/favorites", function (req,res,next) {
+/*  if (!req.query._iduser || !req.query._idfavorite) {
     return next("ids are required");
-  }
-    User.findByIdAndUpdate(_iduser, {$push: {favorites: _idfavorite}})
-    .exec()
-    .then (function(user) {
-      if (!user) {
-        res.status(404);
-        return next("User not found");
-      }
-    })
-    .catch(function(err) {
-      res.status(400);
-      return next(err.message);
-    });
+  }*/
+  console.log('route favorites');
+  console.log('iduser ',req.query._iduser);
+  console.log('idfav ',req.query._idfavorite);
+    User.findOneAndUpdate({_id: req.query._iduser}, {$push: {favorites: req.query._idfavorite}})
+    .exec();
 });
 
 // Routes pour mise à jour des profils
@@ -187,7 +181,7 @@ router.post("/:id/update_recruiter", upload.single('photo'), function(req, res) 
   });
 });*/
 
-router.get("/:id", function(req, res) {
+router.get("/:id", function(req, res, next) {
   User.findById(req.params.id)
     // .populate("account.rooms")
     // .populate("account.favorites")
