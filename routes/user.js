@@ -52,10 +52,12 @@ router.post("/log_in", function(req, res, next) {
       city: user.city,
       /*phone: user.phone,*/
       loc: [user.loc[0], user.loc[1]],
-      lastConnection: 0,
+      lastConnection: user.lastConnection,
       society: user.society,
       cv: user.cv, // cv
-      announces: user.announces
+      announces: user.announces,
+      messages: user.messages,
+      favorites: user.favorites
     });
   })(req, res, next);
 });
@@ -126,11 +128,11 @@ router.post("/favorites", function (req,res,next) {
       if (favorite) {
         console.log('favorite found');
         User.findOneAndUpdate({_id: iduser}, {$pull: {favorites: idfavorite}})
-        .exec(); 
+        .exec();
       } else {
         console.log('favorite not found');
         User.findOneAndUpdate({_id: iduser}, {$push: {favorites: idfavorite}})
-        .exec();  
+        .exec();
       }
     });
 });
