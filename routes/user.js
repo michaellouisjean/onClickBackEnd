@@ -114,6 +114,11 @@ router.get('/candidates', function (req,res,next) {
     });
 }); // router.get /candidates
 
+router.post("/favorites", function(req, res) {
+    User.findByIdAndUpdate(_id, {$push: {favorites: _id}})
+    .exec()
+});
+
 router.post("/:id/update_candidate", upload.single('photo'), function(req, res) {
   var obj = {
     firstname: req.body.firstname,
