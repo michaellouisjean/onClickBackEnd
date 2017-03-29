@@ -7,7 +7,7 @@ var upload = multer({ dest: 'public/uploads/' });
 var mongoose = require('mongoose');
 
 var User = require("../models/User.js");
-var nearDist = 200; // Périmètre de recherche des utilisateurs
+var nearDist = 500; // Périmètre de recherche des utilisateurs
 
 router.post("/sign_up", function(req, res) {
   User.register(

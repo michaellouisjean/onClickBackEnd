@@ -39,7 +39,7 @@ function insertNewTalk (candidate_id, recruiter_id) {
   Message.findOne({id_candidate: candidate_id, id_recruiter: recruiter_id})
     .exec()
     .then (function (talk) {
-      console.log('talk ', talk._id);
+      console.log('insertNewTalk talk._id ', talk._id);
       User.findOneAndUpdate({_id: candidate_id},
         {$push: {
           messages: {id_speaker: recruiter_id, id_message: talk._id}
@@ -51,6 +51,8 @@ function insertNewTalk (candidate_id, recruiter_id) {
           messages: {id_speaker: candidate_id, id_message: talk._id}
         }})
         .exec();
+        
+      io.emit('serverloadsMessages', talk);
     });
 } // insertNewTalk
 
@@ -97,8 +99,6 @@ io.on('connection', function (client) { // le serveur reçoit tous les évèneme
             .then (function() {insertNewTalk (candidate, recruiter)});
           } // else
         });
-
-      io.emit('serverloadsMessages');
   });
 
   client.on('clientSendsMessage', function (messageSent) {
