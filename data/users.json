@@ -3,7 +3,7 @@
 	"status": "candidate",
 	"firstname": "Annaelle",
 	"lastname": "Lawson",
-	"description": "My name is Ludivine, I'm French, 29 years old and work for a communication agency specialized in food. I am passionate about food (of course!) and everything related to it. I also love reading, yoga, dogs, traveling, meeting new people and sharing a good meal with them !\nI am non smoker, easy going and love a good glass of wine! I'm quiet but don't mind living in a busy environment.\n\nI look forward to meeting you !",
+	"description": "Bonjour, je m'appelle Annaelle. Je suis un jeune française de 29ans qui travaille actuellement dans le domaine informatique. Je suis passionnée d'informatique (forcément!) et j'adore tout ce qui s'y rattache. J'aime également lire, le yoga, les chiens, voyager, rencontrer des nouvelles personnes et partager des petits plats avec eux! Je ne fume pas, je suis facile à vivre et j'aime un bon verre de vin! Au plaisir de parler de vive voix",
 	"photo": "https://a1.muscache.com/im/users/4654829/profile_pic/1410285266/original.jpg?aki_policy=profile_x_medium",
 	"city": "Paris",
 	"loc": {
@@ -12,29 +12,29 @@
 	},
 	"lastConnection": 1475805842,
 	"cv": {
-		"title": "Executive Secretary",
-		"experience": "Suspendisse ornare consequat lectus.",
+		"title": "Administrateur Système et Réseaux",
+		"experience": "7ans",
 		"competences": [{
-			"name": "Cisco Technologies",
-			"level": "junior"
+			"name": "Virtualisation",
+			"level": "Experte"
 		}],
 		"languages": [{
-			"name": "Kurdish",
-			"level": "bilingue"
+			"name": "Japonais",
+			"level": "Notions"
 		}],
-		"degree": "eget",
+		"degree": "BTS Informatique de Gestion option ARLE",
 		"qualities": [
-			"pricing structure",
-			"Optional",
-			"eco-centric"
+			"Rigoureuse",
+			"Ponctuelle",
+			"Sociable"
 		]
 	}
 }, {
 	"shortId": 1,
 	"status": "candidate",
-	"firstname": "Melissandre",
+	"firstname": "Jeffrey",
 	"lastname": "Riley",
-	"description": "My name is Ludivine, I'm French, 29 years old and work for a communication agency specialized in food. I am passionate about food (of course!) and everything related to it. I also love reading, yoga, dogs, traveling, meeting new people and sharing a good meal with them !\nI am non smoker, easy going and love a good glass of wine! I'm quiet but don't mind living in a busy environment.\n\nI look forward to meeting you !",
+	"description": "Bonjour, je m'appelle Jeffrey. Je suis titulaire d'un CAP en boulangerie et je suis à la recherche d'un nouveau challenge. J'aime le sport, la cuisine et le cinéma. J'ai participé à l'émission Top Chef ou je me suis classé 3ème. Je suis disponible pour vous montrer mes réalisations et échanger sur le métier de patissier. Dans l'attente de vous rencontrer...",
 	"photo": "https://a1.muscache.com/im/users/4654829/profile_pic/1410285266/original.jpg?aki_policy=profile_x_medium",
 	"city": "Paris",
 	"loc": {
@@ -43,21 +43,21 @@
 	},
 	"lastConnection": 1459434211,
 	"cv": {
-		"title": "Database Administrator I",
-		"experience": "Duis at velit eu est congue elementum.",
+		"title": "Boulanger/Patissier",
+		"experience": "J'ai une expérience de 6 mois dans le métier",
 		"competences": [{
-			"name": "RSA Ace Server",
-			"level": "middle"
+			"name": "Viennoiseries",
+			"level": "Expert"
 		}],
 		"languages": [{
-			"name": "Quechua",
-			"level": "courant"
+			"name": "Français",
+			"level": "Courant"
 		}],
-		"degree": "porta",
+		"degree": "CAP Boulangerie",
 		"qualities": [
-			"Fundamental",
-			"exuding",
-			"client-server"
+			"Accueillant",
+			"Calme",
+			"Impliqué"
 		]
 	}
 }, {
@@ -65,7 +65,7 @@
 	"status": "candidate",
 	"firstname": "Adèle",
 	"lastname": "Wells",
-	"description": "My name is Ludivine, I'm French, 29 years old and work for a communication agency specialized in food. I am passionate about food (of course!) and everything related to it. I also love reading, yoga, dogs, traveling, meeting new people and sharing a good meal with them !\nI am non smoker, easy going and love a good glass of wine! I'm quiet but don't mind living in a busy environment.\n\nI look forward to meeting you !",
+	"description": "Bonjour! Je suis nouvelle sur ce site. A bientot j'espère :) ",
 	"photo": "https://a1.muscache.com/im/users/4654829/profile_pic/1410285266/original.jpg?aki_policy=profile_x_medium",
 	"city": "Paris",
 	"loc": {
@@ -74,29 +74,29 @@
 	},
 	"lastConnection": 1476594102,
 	"cv": {
-		"title": "Financial Advisor",
-		"experience": "Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.",
+		"title": "Chargée de recrutement",
+		"experience": "Expérience dans la vente de 6 ans",
 		"competences": [{
-			"name": "Embedded Systems",
-			"level": "senior"
+			"name": "Responsable de marque",
+			"level": "Senior"
 		}],
 		"languages": [{
-			"name": "Moldovan",
-			"level": "notions"
+			"name": "Espagnol",
+			"level": "Notions"
 		}],
-		"degree": "quis",
+		"degree": "BEP Vente",
 		"qualities": [
-			"encryption",
-			"Multi-layered",
-			"maximized"
+			"Inspirée",
+			"Logique",
+			"Motivée"
 		]
 	}
 }, {
 	"shortId": 3,
 	"status": "candidate",
-	"firstname": "Ophélie",
-	"lastname": "Evans",
-	"description": "My name is Ludivine, I'm French, 29 years old and work for a communication agency specialized in food. I am passionate about food (of course!) and everything related to it. I also love reading, yoga, dogs, traveling, meeting new people and sharing a good meal with them !\nI am non smoker, easy going and love a good glass of wine! I'm quiet but don't mind living in a busy environment.\n\nI look forward to meeting you !",
+	"firstname": "Billy",
+	"lastname": "Romero",
+	"description": "Hello! Je viens d'arriver d'Alsace et je suis à la recherche d'une opportunité dans le developpement et la gestion de portefeuille clients. Je suis disponible pour en discuter de vive voix par téléphone ou au cours d'un entretien. Bonne journée!",
 	"photo": "https://a1.muscache.com/im/users/4654829/profile_pic/1410285266/original.jpg?aki_policy=profile_x_medium",
 	"city": "Paris",
 	"loc": {
@@ -105,21 +105,21 @@
 	},
 	"lastConnection": 1465836229,
 	"cv": {
-		"title": "Executive Secretary",
-		"experience": "Vestibulum sed magna at nunc commodo placerat. Praesent blandit.",
+		"title": "Chef de projet d'affaires d'ingénierie industrielle",
+		"experience": "4ans dans le developpement d'énergies renouvelables",
 		"competences": [{
-			"name": "Graphic Illustrations",
-			"level": "senior"
+			"name": "Développer un portefeuille clients et prospects",
+			"level": "Expert"
 		}],
 		"languages": [{
-			"name": "Indonesian",
-			"level": "bilingue"
+			"name": "Italien",
+			"level": "Correct"
 		}],
-		"degree": "orci",
+		"degree": "Master Catalyse et Procédés",
 		"qualities": [
-			"implementation",
-			"Polarised",
-			"Cross-platform"
+			"Jovial",
+			"Leader",
+			"Minutieux"
 		]
 	}
 }, {
@@ -127,7 +127,7 @@
 	"status": "candidate",
 	"firstname": "Clélia",
 	"lastname": "Weaver",
-	"description": "My name is Ludivine, I'm French, 29 years old and work for a communication agency specialized in food. I am passionate about food (of course!) and everything related to it. I also love reading, yoga, dogs, traveling, meeting new people and sharing a good meal with them !\nI am non smoker, easy going and love a good glass of wine! I'm quiet but don't mind living in a busy environment.\n\nI look forward to meeting you !",
+	"description": "Bonjour, je m'appelle Clélia et j'ai 34ans. Titulaire d'un DUT en gestion des entreprises, j'aimerais trouver un poste où je pourrais m'épanouir et mettre mes compétences à votre service",
 	"photo": "https://a1.muscache.com/im/users/4654829/profile_pic/1410285266/original.jpg?aki_policy=profile_x_medium",
 	"city": "Paris",
 	"loc": {
@@ -136,29 +136,29 @@
 	},
 	"lastConnection": 1469368238,
 	"cv": {
-		"title": "Web Developer IV",
-		"experience": "Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.",
+		"title": "Consultante en management et SI",
+		"experience": "Fort de deux années d'expérience en Finance d'Entreprise et en conseil en management au sein d'un environnement anglophone, j'aspire à évoluer dans une entreprise ambitieuse et ouverte à l'international.",
 		"competences": [{
-			"name": "Rheumatoid Arthritis",
-			"level": "middle"
+			"name": "Gestion de projet",
+			"level": "Experte"
 		}],
 		"languages": [{
-			"name": "Quechua",
-			"level": "courant"
+			"name": "Anglais",
+			"level": "Courant"
 		}],
-		"degree": "leo",
+		"degree": "DUT Gestion des Entreprises & des Administrations",
 		"qualities": [
-			"application",
-			"motivating",
-			"Expanded"
+			"Optimiste",
+			"Sociable",
+			"Rigoureuse"
 		]
 	}
 }, {
 	"shortId": 5,
 	"status": "candidate",
-	"firstname": "Inès",
-	"lastname": "Schmidt",
-	"description": "My name is Ludivine, I'm French, 29 years old and work for a communication agency specialized in food. I am passionate about food (of course!) and everything related to it. I also love reading, yoga, dogs, traveling, meeting new people and sharing a good meal with them !\nI am non smoker, easy going and love a good glass of wine! I'm quiet but don't mind living in a busy environment.\n\nI look forward to meeting you !",
+	"firstname": "Patrick",
+	"lastname": "Nelson",
+	"description": "Bonjour, je m'appelle Patrick et je suis un chef de produit junior avec 2ans d'expérience. J'aimerais trouver un poste dans la marketing et la strategie commerciale. Je suis fan de foot et j'organise des tournois à mes heures perdues. J'adore la nature et je voyage assez souvent. Au plaisir d'échanger avec vous!",
 	"photo": "https://a1.muscache.com/im/users/4654829/profile_pic/1410285266/original.jpg?aki_policy=profile_x_medium",
 	"city": "Paris",
 	"loc": {
@@ -167,21 +167,21 @@
 	},
 	"lastConnection": 1476648727,
 	"cv": {
-		"title": "Marketing Assistant",
-		"experience": "Curabitur in libero ut massa volutpat convallis.",
+		"title": "Chef de Produit",
+		"experience": "2ans",
 		"competences": [{
-			"name": "Key Account Development",
-			"level": "middle"
+			"name": "Réaliser un plan marketing",
+			"level": "Débutant"
 		}],
 		"languages": [{
-			"name": "Romanian",
-			"level": "bilingue"
+			"name": "Neerlandais",
+			"level": "Bilingue"
 		}],
-		"degree": "nibh",
+		"degree": "Master Marketing et Stratégie Commerciale",
 		"qualities": [
-			"adapter",
-			"Cross-platform",
-			"paradigm"
+			"Volontaire",
+			"Ponctuel",
+			"Organisé"
 		]
 	}
 }, {
@@ -189,7 +189,7 @@
 	"status": "candidate",
 	"firstname": "Aurélie",
 	"lastname": "Hamilton",
-	"description": "My name is Ludivine, I'm French, 29 years old and work for a communication agency specialized in food. I am passionate about food (of course!) and everything related to it. I also love reading, yoga, dogs, traveling, meeting new people and sharing a good meal with them !\nI am non smoker, easy going and love a good glass of wine! I'm quiet but don't mind living in a busy environment.\n\nI look forward to meeting you !",
+	"description": "Bonjour, moi c'est Aurélie. Disponible pour vous rencontrer et discuter de vos propositions",
 	"photo": "https://a1.muscache.com/im/users/4654829/profile_pic/1410285266/original.jpg?aki_policy=profile_x_medium",
 	"city": "Paris",
 	"loc": {
@@ -198,29 +198,29 @@
 	},
 	"lastConnection": 1487816261,
 	"cv": {
-		"title": "Registered Nurse",
-		"experience": "Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.",
+		"title": "Account Manager",
+		"experience": "Expérience significative de 3 ans en tant qu'Ingénieur Commercial, VIE en Allemagne, Spécialisé dans la transformation digitale",
 		"competences": [{
-			"name": "Financial Mgmt",
-			"level": "senior"
+			"name": "Management",
+			"level": "Intermédiaire"
 		}],
 		"languages": [{
-			"name": "Chinese",
-			"level": "notions"
+			"name": "Allemand",
+			"level": "Bilingue"
 		}],
-		"degree": "felis",
+		"degree": "Master II Ecole de Commerce",
 		"qualities": [
-			"Decentralized",
-			"throughput",
-			"algorithm"
+			"Méthodique",
+			"Inventif",
+			"Humain"
 		]
 	}
 }, {
 	"shortId": 7,
 	"status": "candidate",
-	"firstname": "Gisèle",
+	"firstname": "Guillaume",
 	"lastname": "Richards",
-	"description": "My name is Ludivine, I'm French, 29 years old and work for a communication agency specialized in food. I am passionate about food (of course!) and everything related to it. I also love reading, yoga, dogs, traveling, meeting new people and sharing a good meal with them !\nI am non smoker, easy going and love a good glass of wine! I'm quiet but don't mind living in a busy environment.\n\nI look forward to meeting you !",
+	"description": "Salut les recruteurs! N'hesitez pas à jeter un oeil à mon CV et me contacter pour tout renseignement! Au plaisir de vous entendre",
 	"photo": "https://a1.muscache.com/im/users/4654829/profile_pic/1410285266/original.jpg?aki_policy=profile_x_medium",
 	"city": "Paris",
 	"loc": {
@@ -229,21 +229,21 @@
 	},
 	"lastConnection": 1487780164,
 	"cv": {
-		"title": "VP Quality Control",
-		"experience": "Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla.",
+		"title": "Chargé de communication",
+		"experience": "Expérience de 6 ans dans la communication, gestion relation client et assistanat commercial",
 		"competences": [{
-			"name": "Psychotherapy",
-			"level": "senior"
+			"name": "Marketing",
+			"level": "Intermédiaire"
 		}],
 		"languages": [{
-			"name": "Italian",
-			"level": "courant"
+			"name": "Français",
+			"level": "Courant"
 		}],
-		"degree": "dis",
+		"degree": "MASTER 2 Ecole de Commerce et de Gestion Marketing et Publicité",
 		"qualities": [
-			"modular",
-			"Persistent",
-			"strategy"
+			"Rigoureux",
+			"Dynamique",
+			"Ponctuel"
 		]
 	}
 }, {
@@ -251,7 +251,7 @@
 	"status": "candidate",
 	"firstname": "Severine",
 	"lastname": "Lee",
-	"description": "My name is Ludivine, I'm French, 29 years old and work for a communication agency specialized in food. I am passionate about food (of course!) and everything related to it. I also love reading, yoga, dogs, traveling, meeting new people and sharing a good meal with them !\nI am non smoker, easy going and love a good glass of wine! I'm quiet but don't mind living in a busy environment.\n\nI look forward to meeting you !",
+	"description": "Salut à tous, moi c'est Severine! Je vous dit à bientôt",
 	"photo": "https://a1.muscache.com/im/users/4654829/profile_pic/1410285266/original.jpg?aki_policy=profile_x_medium",
 	"city": "Paris",
 	"loc": {
@@ -260,29 +260,29 @@
 	},
 	"lastConnection": 1466009956,
 	"cv": {
-		"title": "Physical Therapy Assistant",
-		"experience": "Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.",
+		"title": "Architecte",
+		"experience": "4ans en architecture et urbanisme",
 		"competences": [{
-			"name": "Humanitarian Assistance",
-			"level": "senior"
+			"name": "Autocad",
+			"level": "Expert"
 		}],
 		"languages": [{
-			"name": "Māori",
-			"level": "notions"
+			"name": "Anglais",
+			"level": "Courant"
 		}],
-		"degree": "volutpat",
+		"degree": "Diplômé d'Etat en Architecture et Urbanisme",
 		"qualities": [
-			"migration",
-			"Business-focused",
-			"methodology"
+			"Engagée",
+			"Energique",
+			"Enthousiaste"
 		]
 	}
 }, {
 	"shortId": 9,
 	"status": "candidate",
-	"firstname": "Felicie",
+	"firstname": "Christian",
 	"lastname": "Martin",
-	"description": "My name is Ludivine, I'm French, 29 years old and work for a communication agency specialized in food. I am passionate about food (of course!) and everything related to it. I also love reading, yoga, dogs, traveling, meeting new people and sharing a good meal with them !\nI am non smoker, easy going and love a good glass of wine! I'm quiet but don't mind living in a busy environment.\n\nI look forward to meeting you !",
+	"description": "Bonjour à tous! Je vous propose de mettre mes compétences d'agent de production à votre service. N'hésitez pas à me contacter!",
 	"photo": "https://a1.muscache.com/im/users/4654829/profile_pic/1410285266/original.jpg?aki_policy=profile_x_medium",
 	"city": "Paris",
 	"loc": {
@@ -291,30 +291,30 @@
 	},
 	"lastConnection": 1466303700,
 	"cv": {
-		"title": "Associate Professor",
-		"experience": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+		"title": "Manutentionnaire",
+		"experience": "Constituer et installer les présentoirs et les emballer",
 		"competences": [{
-			"name": "Community Organizing",
-			"level": "senior"
+			"name": "SAP",
+			"level": "Avancé"
 		}],
 		"languages": [{
-			"name": "Polish",
-			"level": "bilingue"
+			"name": "Polonais",
+			"level": "Bilingue"
 		}],
-		"degree": "quam",
+		"degree": "Formation FLE Multisectoriel",
 		"qualities": [
-			"product",
-			"mission-critical",
-			"Mandatory"
+			"Disponible",
+			"Esprit d’équipe",
+			"Généreux"
 		]
 	}
 }, {
 	"shortId": 10,
 	"status": "recruiter",
-	"firstname": "Joseph",
-	"lastname": "Cooper",
-	"society": "FNAC",
-	"description": "Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam.",
+	"firstname": "Alice",
+	"lastname": "Robert",
+	"society": "Bosstek",
+	"description": "BOSSTEK est un cabinet de conseil spécialisé en infrastructure des Systèmes d'Information. Nous intervenons à la fois en conseil en amont de projets (étude de cadrage, étude d'opportunité, benchmark, schéma directeur...) et autour des problématiques et enjeux de la production informatique (virtualisation, haute-disponibilité, sécurité SI, définition ou évolution d'architectures, LAN, WAN, SAN, base de données, migration d'infrastructures, support). Nous sommes présents dans les secteurs de la Finance, des Transports, de l'Industrie, de la Grande Distribution, du Luxe et dans tous les secteurs proposant des challenges captivants.En rejoignant BOSSTEK, vous faites le choix de rejoindre un équipe dynamique et ouverte d'esprit. L'écoute du collaborateur, le respect et la valorisation de chacun sont les points clefs de BOSSTEK. Ainsi, chaque collaborateur est suivi régulièrement et poussé vers l'évolution par du coaching, de la formation et de l'écoute. Enfin, nous privilégions les missions à forte valeur ajoutée. C'est peut être pour cela que nos consultants évoluent plus rapidement.Pour renforcer nos équipes, nous recherchons  un Administrateur Système Linux confirmé",
 	"photo": "https://a1.muscache.com/im/users/29318295/profile_pic/1426344329/original.jpg?aki_policy=profile_x_medium",
 	"city": "Paris",
 	"loc": {
@@ -323,25 +323,25 @@
 	},
 	"lastConnection": 1463490100,
 	"announces": [{
-		"title": "Data Coordinator",
-		"description": "Nulla facilisi. Cras non velit nec nisi vulputate nonummy.",
+		"title": "Administrateur Système Linux Virtualisation Confirmé",
+		"description": "Au sein de l’équipe architecture, vous aurez pour mission la maintenance et l'évolution de l'architecture d’un système de virtualisation. Le support N3 de cette plate-forme. La conception et dimensionnement d'architecture pour les équipes projets. Le management d'équipe. Participer aux projets d’intégration et d’évolution autour des technologies OpenNebula et autres solutions Open Source. L'analyse des problèmes et mise en place solutions préventives. Rédiger les documentations d'architecture technique et autres documentations. Assurer une veille technologique afin de garantir une pertinence et une cohérence des infrastructures.",
 		"competences": [{
-			"name": "Electronic Payments",
-			"level": "junior"
+			"name": "Vous êtes un expert en virtualisation",
+			"level": "Confirmé / Senior avec au minimum 5 années d'expérience"
 		}],
 		"languages": [{
-			"name": "Irish Gaelic",
-			"level": "courant"
+			"name": "Anglais",
+			"level": "Courant"
 		}],
 		"salary": 3700
 	}]
 }, {
 	"shortId": 11,
 	"status": "recruiter",
-	"firstname": "Carlos",
-	"lastname": "Willis",
-	"society": "Darty",
-	"description": "Suspendisse accumsan tortor quis turpis. Sed ante.",
+	"firstname": "Ronald",
+	"lastname": "Stanley",
+	"society": "ALMA",
+	"description": "Pour le groupe ALMA, composé de trois entités Zep industries, Pro 5 et Purodor Marosam, l'offre globale de solutions techniques et innovantes ainsi que la notion de service à l'utilisateur final, sont garantes de reconnaissance du marché et de croissance continue. ZEP Industries  distribue une large gamme de produits d'hygiène et de Maintenance pour les professionnels. PURODOR MAROSAM propose une large gamme de produits écoresponsables auprès des professionnels de l'hygiène et de la maintenance. Pro 5 : adresse aux professionnels un ensemble de produits d'équipements et  de protection individuelle, avec des marques à forte notoriété comme CAT, DEGLON et BLACKLADER. Afin de dynamiser notre développement commercial sur la région, nous recrutons au poste de commercial B to B",
 	"photo": "https://a1.muscache.com/im/users/29318295/profile_pic/1426344329/original.jpg?aki_policy=profile_x_medium",
 	"city": "Paris",
 	"loc": {
@@ -350,25 +350,25 @@
 	},
 	"lastConnection": 1478908815,
 	"announces": [{
-		"title": "Account Coordinator",
-		"description": "Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam. Nam tristique tortor eu pede.",
+		"title": "COMMERCIAL B to B",
+		"description": "En lien hiérarchique avec votre Responsable de région, vous êtes en charge de développer le chiffre d’affaires du groupe. Vous détectez de nouveaux clients potentiels par le biais d’actions de prospection commerciale sur le terrain, menez des négociations commerciales et clôturez les ventes en cycle court puis fidélisez une clientèle B to B (entreprises ou collectivités). Ce poste demande une présence terrain très importante mais sur une zone géographique restreinte (vous rentrez tous les soirs à votre domicile).",
 		"competences": [{
-			"name": "Pricing",
-			"level": "junior"
+			"name": "Diplômé d’une formation supérieure dans le domaine commercial",
+			"level": "Bac+2 à Bac+5"
 		}],
 		"languages": [{
-			"name": "Hungarian",
-			"level": "notions"
+			"name": "Anglais",
+			"level": "Courant"
 		}],
-		"salary": 4186
+		"salary": 4900
 	}]
 }, {
 	"shortId": 12,
 	"status": "recruiter",
-	"firstname": "Franck",
+	"firstname": "Cynthia",
 	"lastname": "Welch",
-	"society": "Boulanger",
-	"description": "Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.",
+	"society": "Page Personnel",
+	"description": "Page Personnel Immobilier et Construction, référence sur le secteur de l'immobilier, identifie et sélectionne les meilleurs profils dans les domaines de la promotion immobilière (commercialisation et promotion), les services à l'immobilier (administrateurs de biens, foncières...) et le logement social privé. Notre client, société spécialisée dans la mise en relation entre promoteurs et cabinets de gestion de patrimoine indépendant, recherche pour accompagner le fort développement de la structure, un Responsable Back Office Immobilier.",
 	"photo": "https://a1.muscache.com/im/users/29318295/profile_pic/1426344329/original.jpg?aki_policy=profile_x_medium",
 	"city": "Paris",
 	"loc": {
@@ -377,15 +377,15 @@
 	},
 	"lastConnection": 1486857265,
 	"announces": [{
-		"title": "GIS Technical Architect",
-		"description": "Vestibulum quam sapien, varius ut, blandit non, interdum in, ante.",
+		"title": "Responsable Back Office Immobilier ",
+		"description": "Afin d'accompagner le fort développement commercial de l'activité et les projections à venir, notre client recherche un Responsable Back Office Immobilier dont les principales missions seront d'encadrer l'équipe du Back Office composée de 4 à 5 personnes, d'assurer la relation entre les promoteurs et les cabinets en gestion de patrimoine pour la partie administrative, de procéder au règlement des dossiers complexes, négociation avec les parties, de piloter et suivre l'activité du Back Office avec restitution auprès des associés, de mettre à jour l'outil de gestion, d'être le soutien opérationnel ponctuel mais régulier auprès de l'équipe tout périmètre confondu (de la vérification des contrats de réservation, aux suivis de financement-notaire et au traitement des mails).",
 		"competences": [{
-			"name": "Interior Architecture",
-			"level": "middle"
+			"name": "Idéalement issu du secteur de la promotion immobilière",
+			"level": "2 ans d'expérience"
 		}],
 		"languages": [{
-			"name": "Korean",
-			"level": "bilingue"
+			"name": "Français",
+			"level": "Courant"
 		}],
 		"salary": 2370
 	}]
@@ -394,8 +394,8 @@
 	"status": "recruiter",
 	"firstname": "Kevin",
 	"lastname": "Ray",
-	"society": "Nestlé",
-	"description": "Proin leo odio, porttitor id, consequat in, consequat ut, nulla.",
+	"society": "ASCO",
+	"description": "ASCO, société de conseil spécialisée depuis plus de 25 ans en gestion de projets industriels (secteur énergie, pétrochimie, pharmaceutique, défense, …) 280 collaborateurs, une clientèle de Grands Comptes dont 80% dans le secteur industriel, une expertise en Systèmes d'Information et dans le domaine de l'énergie, plus de 17 millions d'euros de Chiffre d'Affaires, en fort développement depuis 2006 avec un taux de croissance annuel de l'ordre de 15% en moyenne",
 	"photo": "https://a1.muscache.com/im/users/29318295/profile_pic/1426344329/original.jpg?aki_policy=profile_x_medium",
 	"city": "Paris",
 	"loc": {
@@ -404,25 +404,25 @@
 	},
 	"lastConnection": 1486908558,
 	"announces": [{
-		"title": "Administrative Officer",
-		"description": "Nulla tempus.",
+		"title": "Chargé de Recrutement",
+		"description": "Vous accompagnez notre force commerciale en recherchant et identifiant nos futurs collaborateurs. Vous mettez en place les actions de recrutement nécessaires à l'embauche via des réseaux sociaux (scénarii, rendez-vous, …). Vous développez votre vivier professionnel par approche directe. Vous identifiez et contactez sur les réseaux sociaux (Viadeo, Linkedin, …) les profils correspondant aux métiers de la société. Convaincant, vous êtes en capacité de marketer, auprès des candidats, votre approche pour répondre à vos objectifs de recrutement. Votre capacité d'adaptation vous permet d'être un partenaire de l'équipe commerciale, proactif et dynamique. Vous conduisez l'ensemble de la démarche de recrutement et de validation, appuyé par les managers opérationnels.",
 		"competences": [{
-			"name": "Outsourcing",
-			"level": "junior"
+			"name": "Vous avez une expertise dans l'approche directe via les réseaux sociaux",
+			"level": "Bac +3 à Bac + 5"
 		}],
 		"languages": [{
-			"name": "Italian",
-			"level": "bilingue"
+			"name": "Italien",
+			"level": "Notions"
 		}],
-		"salary": 2585
+		"salary": 2500
 	}]
 }, {
 	"shortId": 14,
 	"status": "recruiter",
-	"firstname": "Eric",
+	"firstname": "Sophie",
 	"lastname": "Dickson",
-	"society": "Spie",
-	"description": "In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt.",
+	"society": "PARIS HABITAT OPH",
+	"description": "1er bailleur et constructeur social parisien avec 120.000 logements et 2800 collaborateurs. Notre métier est de construire, rénover, assurer la gestion et la maintenance des logements. Notre mission est de satisfaire nos clients, les locataires.",
 	"photo": "https://a1.muscache.com/im/users/29318295/profile_pic/1426344329/original.jpg?aki_policy=profile_x_medium",
 	"city": "Paris",
 	"loc": {
@@ -431,25 +431,25 @@
 	},
 	"lastConnection": 1458789331,
 	"announces": [{
-		"title": "Quality Control Specialist",
-		"description": "Mauris ullamcorper purus sit amet nulla.",
+		"title": "Ingénieur Système d'informations",
+		"description": "Dans le cadre de vos missions systèmes vous participez à la définition et l'évolution de l'infrastructure système de Paris Habitat. Vous installez, configurez et maintenez un environnement système principalement Microsoft (Exchange 2016, Clusters Hyper-V, suite System Center, SQL Server 2008 à 2014, Sharepoint 2013, Dynamics CRM, IIS…) accompagné d'une publication de bureau par Citrix Xenapp (6.5 à 7.8). Vous participez à la gestion du stockage (3PAR et EMC). Vous suivez l'évolution des technologies et préconisez des solutions innovantes. En collaboration avec l'équipe d'exploitation surveillez les performances sur les applications collaboratives et apportez toute modification nécessaire à leur amélioration. Vous apportez une assistance aux équipes études, centre de services et exploitation. Vous intervenez en niveau 2 sur les incidents utilisateurs.",
 		"competences": [{
-			"name": "Abstraction",
-			"level": "junior"
+			"name": "DESS, DEA en Informatique",
+			"level": "Bac + 5"
 		}],
 		"languages": [{
-			"name": "Hungarian",
-			"level": "courant"
+			"name": "Allemand",
+			"level": "Notions"
 		}],
-		"salary": 4076
+		"salary": 4200
 	}]
 }, {
 	"shortId": 15,
 	"status": "recruiter",
 	"firstname": "Bobby",
 	"lastname": "Bell",
-	"society": "Nike",
-	"description": "In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.",
+	"society": "Groupe Kertel",
+	"description": "KERTEL Groupe est un groupe en perpétuelle évolution qui apporte des solutions Télécoms et Informatiques aux entreprises. Son entité KERTEL Entreprises, spécialisée dans la téléphonie IP, recherche un Technicien Support Réseau et Télécom pour rejoindre l’équipe de support. Actuellement, nous recrutons en CDI un Technicien support Réseau et Telecom",
 	"photo": "https://a1.muscache.com/im/users/29318295/profile_pic/1426344329/original.jpg?aki_policy=profile_x_medium",
 	"city": "Paris",
 	"loc": {
@@ -458,25 +458,25 @@
 	},
 	"lastConnection": 1458706035,
 	"announces": [{
-		"title": "Account Representative I",
-		"description": "Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis.",
+		"title": "Technicien support Réseau et Telecom",
+		"description": "A ce titre, vous réceptionnez les appels de nos clients et résolvez leurs problématiques, liées aux domaines suivants : Accès xDSL, Accès Fibre optique, réseau, VoIP, Téléphonie d’entreprise, téléphonie mobile. Vous aurez notamment pour missions de prendre en charge les appels clients : qualifier, analyser, diagnostiquer les réclamations et incidents du client. Assister et guider le client dans l’optique d’apporter les éléments de réponse à sa problématique et éventuellement escalader au service adéquat, en cas d’impossibilité de résolution à votre niveau. Rédiger clairement les actions entreprises sur l’outil de Ticketing et éffectuer un suivi des incidents.",
 		"competences": [{
-			"name": "Software Project Management",
-			"level": "junior"
+			"name": "DUT ou BTS",
+			"level": "BAC+2"
 		}],
 		"languages": [{
-			"name": "Croatian",
-			"level": "courant"
+			"name": "Français",
+			"level": "Courant"
 		}],
-		"salary": 3307
+		"salary": 3000
 	}]
 }, {
 	"shortId": 16,
 	"status": "recruiter",
-	"firstname": "Billy",
+	"firstname": "Sandra",
 	"lastname": "Wilson",
-	"society": "Micromania",
-	"description": "Mauris ullamcorper purus sit amet nulla.",
+	"society": "Universcience",
+	"description": "Universcience est un établissement public à caractère industriel et commercial, soumis aux règles de la comptabilité publique  dont la mission est de diffuser la culture scientifique auprès du grand public. Créé en 2010, cet établissement est né du rapprochement de deux institutions parisiennes, le Palais de la découverte et la Cité des Sciences et de l'Industrie.",
 	"photo": "https://a1.muscache.com/im/users/29318295/profile_pic/1426344329/original.jpg?aki_policy=profile_x_medium",
 	"city": "Paris",
 	"loc": {
@@ -485,15 +485,15 @@
 	},
 	"lastConnection": 1484934145,
 	"announces": [{
-		"title": "Director of Sales",
-		"description": "Morbi a ipsum. Integer a nibh.",
+		"title": "Comptable",
+		"description": "Sous l’autorité du Responsable, vous collaborez à la mise en œuvre du décret n° 2012-1246 du 7 novembre 2012 relatif à la Gestion budgétaire et Comptable Publique, pour la Direction de l’Agence Comptable. Vos principales missions sont de retraiter les données pour la  mise aux normes et la fiabilisation de la comptabilité générale. Contribuer à la révision des comptes. Rédiger des fiches de procédures. Analyser, corriger et mettre à jour l’état de l’actif des immobilisations (+ de 50 000 lignes). Aider à la supervision des contrôles des régies. Participer au déploiement et à la fiabilisation du module Régies.net (interface entre les régisseurs et l’Agence comptable). Définir des indicateurs d’activité et élaborer des restitutions d’informations financières et comptables. Anticiper et préparer l’adaptation des documents du compte financier en vue de la clôture 2017.",
 		"competences": [{
-			"name": "Static Timing Analysis",
-			"level": "senior"
+			"name": "BTS ou DUT en Comptabilité / Gestion",
+			"level": "5 ans d'expérience"
 		}],
 		"languages": [{
-			"name": "English",
-			"level": "courant"
+			"name": "Chinois",
+			"level": "Notions"
 		}],
 		"salary": 4861
 	}]
@@ -502,8 +502,8 @@
 	"status": "recruiter",
 	"firstname": "James",
 	"lastname": "Morales",
-	"society": "Apple",
-	"description": "Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.",
+	"society": "DESCAMPS ARCATURE",
+	"description": "DESCAMPS ARCATURE Paris est une agence d’Architecture avec 30 ans d’expérience, spécialisée dans la réhabilitation de bâtiments, et regroupant 12 personnes. Nous recherchons à DESCAMPS Arcature Paris un Dessinateur Projeteur BTP débutant",
 	"photo": "https://a1.muscache.com/im/users/29318295/profile_pic/1426344329/original.jpg?aki_policy=profile_x_medium",
 	"city": "Paris",
 	"loc": {
@@ -512,25 +512,25 @@
 	},
 	"lastConnection": 1484609599,
 	"announces": [{
-		"title": "Geological Engineer",
-		"description": "Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue.",
+		"title": "Dessinateur Projeteur BTP",
+		"description": "Vous rejoignez notre équipe au poste de dessinateur projeteur pour concrétiser nos travaux d’architecte à travers l’élaboration de plans Autocad ou Revit, la création d’images 3D sur Sketchup et éventuellement Artlantis, la réalisation de Permis de Construire, de Déclaration Préalable de Travaux, les plans des phases Esquisses au DCE.",
 		"competences": [{
-			"name": "Urban Regeneration",
-			"level": "senior"
+			"name": "Bac +2 type BTP, bâtiment",
+			"level": "Junior"
 		}],
 		"languages": [{
-			"name": "Czech",
-			"level": "notions"
+			"name": "Anglais",
+			"level": "Notions"
 		}],
-		"salary": 4868
+		"salary": 4300
 	}]
 }, {
 	"shortId": 18,
 	"status": "recruiter",
-	"firstname": "Charles",
-	"lastname": "Rose",
-	"society": "Hippopotamus",
-	"description": "Integer non velit.",
+	"firstname": "Samantha",
+	"lastname": "Richardson",
+	"society": "Cabinet Selescope",
+	"description": "Société française, pionnière et leader européen dans l’édition de progiciels dédiés aux problématiques juridiques del’entreprise, nous connaissons une forte croissance (+23% de CA en 2016). Présents également au Canada et aux Etats-Unis,nous comptons plus de 500 clients et plus de 35 000 utilisateurs de nos solutions à travers le monde. Seul éditeur français figurant dans le Magic Quadrant du Gartner Group dans la catégorie Entreprise Legal Management, notre effort de recherche et développement est une valeur centrale au sein de notre Groupe. Face à notre développement à l’échelle locale et internationale, et du fait de la taille de la société (80 collaborateurs répartis sur 4 entités), nous recherchons pour accompagner notre Direction Financière et Administrative notre contrôleur de Gestion Junior",
 	"photo": "https://a1.muscache.com/im/users/29318295/profile_pic/1426344329/original.jpg?aki_policy=profile_x_medium",
 	"city": "Paris",
 	"loc": {
@@ -539,15 +539,15 @@
 	},
 	"lastConnection": 1485540141,
 	"announces": [{
-		"title": "Software Consultant",
-		"description": "Suspendisse ornare consequat lectus.",
+		"title": "Contrôleur de Gestion",
+		"description": "Rattaché à la Direction Administrative et Financière et en liaison avec les différents services tant en France qu’à l’étranger, vous prenez en main l’assistance à l’élaboration du Business Plan pluriannuel, le suivi d’indicateurs analytiques - KPI - conformes au business modèle de l’entreprise et l’actualisation et le suivi des structures de coûts normatifs. Vous contribuez à l’élaboration des listes de prixen fonction des coûts de revient, vous analysez des projets (marge estimée/réelle/alerte sur dérives) et apportez votre éclairage sur l’activité (par secteur, type de prestations, …) et les écarts budget/réalisé/reforecasts. A ce poste stratégique, vous élaborez des reportings de la maison mère et des filiales, contrôlez le suivi d’activité des collaborateurs, auditez ponctuellement  certains postes de dépenses et proposez des recommandations d’optimisation. Votre aisance administrative vous permet de préparer des présentations financières, d’automatiser et de documenter les processus, de tenir à jour les procédures administratives et financières, de suivre les factures et d’établir des refacturations et des rapprochements inter compagnies (états comptables, tableaux de bords, …).",
 		"competences": [{
-			"name": "Environmental Management Systems",
-			"level": "middle"
+			"name": "École Supérieure de Commerce ou Université, Bac 4/5",
+			"level": "spécialisé en Finance Contrôle de gestion"
 		}],
 		"languages": [{
-			"name": "Finnish",
-			"level": "notions"
+			"name": "Français",
+			"level": "Courant"
 		}],
 		"salary": 3617
 	}]
@@ -556,8 +556,8 @@
 	"status": "recruiter",
 	"firstname": "Paul",
 	"lastname": "Duncan",
-	"society": "Buffalo Grill",
-	"description": "Praesent id massa id nisl venenatis lacinia.",
+	"society": "Synergie",
+	"description": "1er Groupe français indépendant dédié à l’emploi, depuis plus de 45 ans, Synergie met son expertise au service des entreprises, intérimaires et candidats sur l'ensemble des métiers du recrutement, travail temporaire, formation et conseil RH. Synergie représente aujourd'hui un réseau de 600 agences réparties dans 15 pays dans le monde et 2400 collaborateurs permanents unis par les mêmes valeurs. Rejoignez-nous ! PME à la croissance régulière et leader reconnu sur le marché de la vente de solutions et équipements dédiés au secteur CHR. Elle propose une large palette de produits s'appuyant sur des technologies innovantes et très performantes. Par son positionnement, elle intervient sur des secteurs d’activités très variés, principalement CHR et Agroalimentaire. La société travaille depuis plus de 15 ans avec des partenaires internationaux (Constructeur, Bureau d'Etudes, ...) ce qui lui permet de répondre à l'ensemble de ses demandes clients dans les meilleurs délais possibles. En collaboration étroite avec le Commercial et le bureau d'études, vous serez en charge des installations chez les clients (professionnels CHR, collectivités ...)",
 	"photo": "https://a1.muscache.com/im/users/29318295/profile_pic/1426344329/original.jpg?aki_policy=profile_x_medium",
 	"city": "Paris",
 	"loc": {
@@ -566,16 +566,16 @@
 	},
 	"lastConnection": 1463881966,
 	"announces": [{
-		"title": "Web Developer",
-		"description": "Donec posuere metus vitae ipsum.",
+		"title": "Plombier cuisines professionnelles",
+		"description": "Vos principales missions seront l'installation PVC et Fonte, l'installation et mise en service des machines, le chiffrage, le reporting sur le suivi et l'aboutissement des interventions.",
 		"competences": [{
-			"name": "Interior Design",
-			"level": "middle"
+			"name": "Formation technique dans la plomberie",
+			"level": "expérience confirmée d'au moins 7/10 ans"
 		}],
 		"languages": [{
-			"name": "Portuguese",
-			"level": "bilingue"
+			"name": "Portugais",
+			"level": "Bilingue"
 		}],
-		"salary": 2851
+		"salary": 2850
 	}]
 }]
