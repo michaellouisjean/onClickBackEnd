@@ -16,7 +16,7 @@
 		"experience": "7ans",
 		"competences": [{
 			"name": "Virtualisation",
-			"level": "Experte"
+			"level": "Expert"
 		}],
 		"languages": [{
 			"name": "Japonais",
@@ -78,7 +78,7 @@
 		"experience": "Expérience dans la vente de 6 ans",
 		"competences": [{
 			"name": "Responsable de marque",
-			"level": "Senior"
+			"level": "Expert"
 		}],
 		"languages": [{
 			"name": "Espagnol",
@@ -140,7 +140,7 @@
 		"experience": "Fort de deux années d'expérience en Finance d'Entreprise et en conseil en management au sein d'un environnement anglophone, j'aspire à évoluer dans une entreprise ambitieuse et ouverte à l'international.",
 		"competences": [{
 			"name": "Gestion de projet",
-			"level": "Experte"
+			"level": "Expert"
 		}],
 		"languages": [{
 			"name": "Anglais",
@@ -202,7 +202,7 @@
 		"experience": "Expérience significative de 3 ans en tant qu'Ingénieur Commercial, VIE en Allemagne, Spécialisé dans la transformation digitale",
 		"competences": [{
 			"name": "Management",
-			"level": "Intermédiaire"
+			"level": "Confirmé"
 		}],
 		"languages": [{
 			"name": "Allemand",
@@ -233,7 +233,7 @@
 		"experience": "Expérience de 6 ans dans la communication, gestion relation client et assistanat commercial",
 		"competences": [{
 			"name": "Marketing",
-			"level": "Intermédiaire"
+			"level": "Confirmé"
 		}],
 		"languages": [{
 			"name": "Français",
@@ -295,7 +295,7 @@
 		"experience": "Constituer et installer les présentoirs et les emballer",
 		"competences": [{
 			"name": "SAP",
-			"level": "Avancé"
+			"level": "Expert"
 		}],
 		"languages": [{
 			"name": "Polonais",
@@ -327,7 +327,7 @@
 		"description": "Au sein de l’équipe architecture, vous aurez pour mission la maintenance et l'évolution de l'architecture d’un système de virtualisation. Le support N3 de cette plate-forme. La conception et dimensionnement d'architecture pour les équipes projets. Le management d'équipe. Participer aux projets d’intégration et d’évolution autour des technologies OpenNebula et autres solutions Open Source. L'analyse des problèmes et mise en place solutions préventives. Rédiger les documentations d'architecture technique et autres documentations. Assurer une veille technologique afin de garantir une pertinence et une cohérence des infrastructures.",
 		"competences": [{
 			"name": "Vous êtes un expert en virtualisation",
-			"level": "Confirmé / Senior avec au minimum 5 années d'expérience"
+			"level": "Confirmé"
 		}],
 		"languages": [{
 			"name": "Anglais",
@@ -354,7 +354,7 @@
 		"description": "En lien hiérarchique avec votre Responsable de région, vous êtes en charge de développer le chiffre d’affaires du groupe. Vous détectez de nouveaux clients potentiels par le biais d’actions de prospection commerciale sur le terrain, menez des négociations commerciales et clôturez les ventes en cycle court puis fidélisez une clientèle B to B (entreprises ou collectivités). Ce poste demande une présence terrain très importante mais sur une zone géographique restreinte (vous rentrez tous les soirs à votre domicile).",
 		"competences": [{
 			"name": "Diplômé d’une formation supérieure dans le domaine commercial",
-			"level": "Bac+2 à Bac+5"
+			"level": "Confirmé"
 		}],
 		"languages": [{
 			"name": "Anglais",
@@ -381,7 +381,7 @@
 		"description": "Afin d'accompagner le fort développement commercial de l'activité et les projections à venir, notre client recherche un Responsable Back Office Immobilier dont les principales missions seront d'encadrer l'équipe du Back Office composée de 4 à 5 personnes, d'assurer la relation entre les promoteurs et les cabinets en gestion de patrimoine pour la partie administrative, de procéder au règlement des dossiers complexes, négociation avec les parties, de piloter et suivre l'activité du Back Office avec restitution auprès des associés, de mettre à jour l'outil de gestion, d'être le soutien opérationnel ponctuel mais régulier auprès de l'équipe tout périmètre confondu (de la vérification des contrats de réservation, aux suivis de financement-notaire et au traitement des mails).",
 		"competences": [{
 			"name": "Idéalement issu du secteur de la promotion immobilière",
-			"level": "2 ans d'expérience"
+			"level": "Débutant"
 		}],
 		"languages": [{
 			"name": "Français",
@@ -408,7 +408,7 @@
 		"description": "Vous accompagnez notre force commerciale en recherchant et identifiant nos futurs collaborateurs. Vous mettez en place les actions de recrutement nécessaires à l'embauche via des réseaux sociaux (scénarii, rendez-vous, …). Vous développez votre vivier professionnel par approche directe. Vous identifiez et contactez sur les réseaux sociaux (Viadeo, Linkedin, …) les profils correspondant aux métiers de la société. Convaincant, vous êtes en capacité de marketer, auprès des candidats, votre approche pour répondre à vos objectifs de recrutement. Votre capacité d'adaptation vous permet d'être un partenaire de l'équipe commerciale, proactif et dynamique. Vous conduisez l'ensemble de la démarche de recrutement et de validation, appuyé par les managers opérationnels.",
 		"competences": [{
 			"name": "Vous avez une expertise dans l'approche directe via les réseaux sociaux",
-			"level": "Bac +3 à Bac + 5"
+			"level": "Expert"
 		}],
 		"languages": [{
 			"name": "Italien",
@@ -435,7 +435,7 @@
 		"description": "Dans le cadre de vos missions systèmes vous participez à la définition et l'évolution de l'infrastructure système de Paris Habitat. Vous installez, configurez et maintenez un environnement système principalement Microsoft (Exchange 2016, Clusters Hyper-V, suite System Center, SQL Server 2008 à 2014, Sharepoint 2013, Dynamics CRM, IIS…) accompagné d'une publication de bureau par Citrix Xenapp (6.5 à 7.8). Vous participez à la gestion du stockage (3PAR et EMC). Vous suivez l'évolution des technologies et préconisez des solutions innovantes. En collaboration avec l'équipe d'exploitation surveillez les performances sur les applications collaboratives et apportez toute modification nécessaire à leur amélioration. Vous apportez une assistance aux équipes études, centre de services et exploitation. Vous intervenez en niveau 2 sur les incidents utilisateurs.",
 		"competences": [{
 			"name": "DESS, DEA en Informatique",
-			"level": "Bac + 5"
+			"level": "Expert"
 		}],
 		"languages": [{
 			"name": "Allemand",
@@ -462,7 +462,7 @@
 		"description": "A ce titre, vous réceptionnez les appels de nos clients et résolvez leurs problématiques, liées aux domaines suivants : Accès xDSL, Accès Fibre optique, réseau, VoIP, Téléphonie d’entreprise, téléphonie mobile. Vous aurez notamment pour missions de prendre en charge les appels clients : qualifier, analyser, diagnostiquer les réclamations et incidents du client. Assister et guider le client dans l’optique d’apporter les éléments de réponse à sa problématique et éventuellement escalader au service adéquat, en cas d’impossibilité de résolution à votre niveau. Rédiger clairement les actions entreprises sur l’outil de Ticketing et éffectuer un suivi des incidents.",
 		"competences": [{
 			"name": "DUT ou BTS",
-			"level": "BAC+2"
+			"level": "Confirmé"
 		}],
 		"languages": [{
 			"name": "Français",
@@ -489,7 +489,7 @@
 		"description": "Sous l’autorité du Responsable, vous collaborez à la mise en œuvre du décret n° 2012-1246 du 7 novembre 2012 relatif à la Gestion budgétaire et Comptable Publique, pour la Direction de l’Agence Comptable. Vos principales missions sont de retraiter les données pour la  mise aux normes et la fiabilisation de la comptabilité générale. Contribuer à la révision des comptes. Rédiger des fiches de procédures. Analyser, corriger et mettre à jour l’état de l’actif des immobilisations (+ de 50 000 lignes). Aider à la supervision des contrôles des régies. Participer au déploiement et à la fiabilisation du module Régies.net (interface entre les régisseurs et l’Agence comptable). Définir des indicateurs d’activité et élaborer des restitutions d’informations financières et comptables. Anticiper et préparer l’adaptation des documents du compte financier en vue de la clôture 2017.",
 		"competences": [{
 			"name": "BTS ou DUT en Comptabilité / Gestion",
-			"level": "5 ans d'expérience"
+			"level": "Confirmé"
 		}],
 		"languages": [{
 			"name": "Chinois",
@@ -516,7 +516,7 @@
 		"description": "Vous rejoignez notre équipe au poste de dessinateur projeteur pour concrétiser nos travaux d’architecte à travers l’élaboration de plans Autocad ou Revit, la création d’images 3D sur Sketchup et éventuellement Artlantis, la réalisation de Permis de Construire, de Déclaration Préalable de Travaux, les plans des phases Esquisses au DCE.",
 		"competences": [{
 			"name": "Bac +2 type BTP, bâtiment",
-			"level": "Junior"
+			"level": "Débutant"
 		}],
 		"languages": [{
 			"name": "Anglais",
@@ -543,7 +543,7 @@
 		"description": "Rattaché à la Direction Administrative et Financière et en liaison avec les différents services tant en France qu’à l’étranger, vous prenez en main l’assistance à l’élaboration du Business Plan pluriannuel, le suivi d’indicateurs analytiques - KPI - conformes au business modèle de l’entreprise et l’actualisation et le suivi des structures de coûts normatifs. Vous contribuez à l’élaboration des listes de prixen fonction des coûts de revient, vous analysez des projets (marge estimée/réelle/alerte sur dérives) et apportez votre éclairage sur l’activité (par secteur, type de prestations, …) et les écarts budget/réalisé/reforecasts. A ce poste stratégique, vous élaborez des reportings de la maison mère et des filiales, contrôlez le suivi d’activité des collaborateurs, auditez ponctuellement  certains postes de dépenses et proposez des recommandations d’optimisation. Votre aisance administrative vous permet de préparer des présentations financières, d’automatiser et de documenter les processus, de tenir à jour les procédures administratives et financières, de suivre les factures et d’établir des refacturations et des rapprochements inter compagnies (états comptables, tableaux de bords, …).",
 		"competences": [{
 			"name": "École Supérieure de Commerce ou Université, Bac 4/5",
-			"level": "spécialisé en Finance Contrôle de gestion"
+			"level": "Expert"
 		}],
 		"languages": [{
 			"name": "Français",
@@ -570,12 +570,39 @@
 		"description": "Vos principales missions seront l'installation PVC et Fonte, l'installation et mise en service des machines, le chiffrage, le reporting sur le suivi et l'aboutissement des interventions.",
 		"competences": [{
 			"name": "Formation technique dans la plomberie",
-			"level": "expérience confirmée d'au moins 7/10 ans"
+			"level": "Confirmé"
 		}],
 		"languages": [{
 			"name": "Portugais",
 			"level": "Bilingue"
 		}],
 		"salary": 2850
+	}]
+}, {
+	"shortId": 20,
+	"status": "recruiter",
+	"firstname": "Michael",
+	"lastname": "Louis-Jean",
+	"society": "Meetgenius",
+	"description": "1Bonjour, je suis Michaël, co-founder de Meetgenius. Nous avons créé cette startup pour mettre facilement en relation des candidats talentueux avec des recruteurs selon les besoins et les compétences de chacun. Nous voulons définitivement simplifier la recherche d'emploi en se recentrant sur les rencontres humaines.",
+	"photo": "http://localhost:3001/img/Michael.jpg",
+	"city": "Paris",
+	"loc": {
+		"lat": 48.8550746119,
+		"lng": 2.3468710494
+	},
+	"lastConnection": 1463881966,
+	"announces": [{
+		"title": "Community Manager",
+		"description": "Meetgenius est une jeune startup créé pour faciliter l'embauche des entreprises et la recherche d'emploi des des candidats. Vous êtes à l'aise avec l'utilisation des réseaux sociaux, des outils communication et savez organisez des dispositifs web sociaux.",
+		"competences": [{
+			"name": "Marketing / Communication",
+			"level": "Expert"
+		}],
+		"languages": [{
+			"name": "Français",
+			"level": "Bilingue"
+		}],
+		"salary": 2200
 	}]
 }]
