@@ -213,8 +213,8 @@ router.get("/:id", function(req, res, next) {
 
 router.get("/:id/favorites", function(req,res,next) {
   User.findById(req.params.id)
-    .select({_id: 0, favorites: 1})
-    // .populate("account.rooms")
+    .populate("favorites")
+    // .select({_id: 0, favorites: 1})
     // .populate("account.favorites")
     .exec()
     .then(function(user) {
@@ -223,7 +223,7 @@ router.get("/:id/favorites", function(req,res,next) {
         res.status(404);
         return next("User not found");
       }
-      return res.json(user);
+      return res.json(user.favorites);
     })
     .catch(function(err) {
       res.status(400);
