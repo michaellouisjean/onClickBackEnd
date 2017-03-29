@@ -11,6 +11,7 @@ mongoose.connect(process.env.MONGODB_URI, function(err) {
 
 var express = require("express");
 var app = express();
+app.use(express.static('public'));
 
 // Le package `helmet` est une collection de protections contre certaines vulnérabilités HTTP
 var helmet = require("helmet");
