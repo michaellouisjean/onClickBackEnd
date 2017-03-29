@@ -54,7 +54,7 @@ router.post("/log_in", function(req, res, next) {
       loc: [user.loc[0], user.loc[1]],
       lastConnection: user.lastConnection,
       society: user.society,
-      cv: user.cv, // cv
+      cv: user.cv,
       announces: user.announces,
       messages: user.messages,
       favorites: user.favorites
@@ -194,8 +194,6 @@ router.post("/:id/update_recruiter", upload.single('photo'), function(req, res) 
 
 router.get("/:id", function(req, res, next) {
   User.findById(req.params.id)
-    // .populate("account.rooms")
-    // .populate("account.favorites")
     .exec()
     .then(function(user) {
       console.log('Route user/:id ',user);
@@ -213,9 +211,7 @@ router.get("/:id", function(req, res, next) {
 
 router.get("/:id/favorites", function(req,res,next) {
   User.findById(req.params.id)
-    .populate("favorites")
-    // .select({_id: 0, favorites: 1})
-    // .populate("account.favorites")
+    .populate("favorites", ['-token'])
     .exec()
     .then(function(user) {
       console.log('Route user/:id/favorites ',user);
@@ -224,6 +220,24 @@ router.get("/:id/favorites", function(req,res,next) {
         return next("User not found");
       }
       return res.json(user.favorites);
+    })
+    .catch(function(err) {
+      res.status(400);
+      return next(err.message);
+    });
+});
+
+router.get("/:id/messages", function(req,res,next) {
+  User.findById(req.params.id)
+    .populate("messages.id_speaker", ['-token'])
+    .exec()
+    .then(function(user) {
+      console.log('Route user/:id/messages ',user);
+      if (!user) {
+        res.status(404);
+        return next("User not found");
+      }
+      return res.json(user.messages);
     })
     .catch(function(err) {
       res.status(400);
