@@ -15,7 +15,7 @@ for (var i = 0; i < users.length; i++) {
   var newUser = {};
   if (users[i].status === 'candidate') {
     newUser.shortId = users[i].shortIdid,
-    newUser.email = users[i].firstname.toLowerCase() + "@onclick.io",
+    newUser.email = users[i].firstname.toLowerCase() + "@geniuz.io",
     newUser.token = uid2(16),
     newUser.status = users[i].status,
     newUser.firstname = users[i].firstname,
@@ -29,7 +29,7 @@ for (var i = 0; i < users.length; i++) {
     newUser.cv = users[i].cv
     } else {
     newUser.shortId = users[i].shortId,
-    newUser.email = users[i].firstname.toLowerCase() + "@onclick.io",
+    newUser.email = users[i].firstname.toLowerCase() + "@geniuz.io",
     newUser.token = uid2(16),
     newUser.status = users[i].status,
     newUser.firstname = users[i].firstname,
