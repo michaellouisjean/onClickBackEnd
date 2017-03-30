@@ -3,7 +3,7 @@
 	"status": "candidate",
 	"firstname": "Annaelle",
 	"lastname": "Lawson",
-	"description": "Bonjour, je m'appelle Annaelle. Je suis un jeune française de 29ans qui travaille actuellement dans le domaine informatique. Je suis passionnée d'informatique (forcément!) et j'adore tout ce qui s'y rattache. J'aime également lire, le yoga, les chiens, voyager, rencontrer des nouvelles personnes et partager des petits plats avec eux! Je ne fume pas, je suis facile à vivre et j'aime un bon verre de vin! Au plaisir de parler de vive voix",
+	"description": "Bonjour, je m'appelle Annaelle. Je suis une jeune française de 29ans qui travaille actuellement dans le domaine informatique. Je suis passionnée d'informatique (forcément!) et j'adore tout ce qui s'y rattache. J'aime également lire, le yoga et voyager! Au plaisir de parler de vive voix",
 	"photo": "http://localhost:3001/img/Aurore.jpg",
 	"city": "Paris",
 	"loc": {
@@ -221,7 +221,7 @@
 	"firstname": "Guillaume",
 	"lastname": "Richards",
 	"description": "Salut les recruteurs! N'hesitez pas à jeter un oeil à mon CV et me contacter pour tout renseignement! Au plaisir de vous entendre",
-	"photo": "http://localhost:3001/img/Donald.jpg",
+	"photo": "http://localhost:3001/img/Donald.jpeg",
 	"city": "Paris",
 	"loc": {
 		"lat": 48.8531759185,
@@ -392,8 +392,8 @@
 }, {
 	"shortId": 13,
 	"status": "recruiter",
-	"firstname": "Kevin",
-	"lastname": "Ray",
+	"firstname": "Jean-Teddy",
+	"lastname": "Damour",
 	"society": "ASCO",
 	"description": "ASCO, société de conseil spécialisée depuis plus de 25 ans en gestion de projets industriels (secteur énergie, pétrochimie, pharmaceutique, défense, …) 280 collaborateurs, une clientèle de Grands Comptes dont 80% dans le secteur industriel, une expertise en Systèmes d'Information et dans le domaine de l'énergie, plus de 17 millions d'euros de Chiffre d'Affaires, en fort développement depuis 2006 avec un taux de croissance annuel de l'ordre de 15% en moyenne",
 	"photo": "http://localhost:3001/img/Jean.jpg",
@@ -584,7 +584,7 @@
 	"firstname": "Michael",
 	"lastname": "Louis-Jean",
 	"society": "Geniuz",
-	"description": "1Bonjour, je suis Michaël, co-founder de Geniuz. Nous avons créé cette startup pour mettre facilement en relation des candidats talentueux avec des recruteurs selon les besoins et les compétences de chacun. Nous voulons définitivement simplifier la recherche d'emploi en se recentrant sur les rencontres humaines.",
+	"description": "Bonjour, je suis Michaël, co-founder de Geniuz. Nous avons créé cette startup pour mettre facilement en relation des candidats talentueux avec des recruteurs selon les besoins et les compétences de chacun. Nous voulons définitivement simplifier la recherche d'emploi en se recentrant sur les rencontres humaines.",
 	"photo": "http://localhost:3001/img/Michael.jpg",
 	"city": "Paris",
 	"loc": {
