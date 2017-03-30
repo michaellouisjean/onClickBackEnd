@@ -583,8 +583,8 @@
 	"status": "recruiter",
 	"firstname": "Michael",
 	"lastname": "Louis-Jean",
-	"society": "Meetgenius",
-	"description": "1Bonjour, je suis Michaël, co-founder de Meetgenius. Nous avons créé cette startup pour mettre facilement en relation des candidats talentueux avec des recruteurs selon les besoins et les compétences de chacun. Nous voulons définitivement simplifier la recherche d'emploi en se recentrant sur les rencontres humaines.",
+	"society": "Geniuz",
+	"description": "1Bonjour, je suis Michaël, co-founder de Geniuz. Nous avons créé cette startup pour mettre facilement en relation des candidats talentueux avec des recruteurs selon les besoins et les compétences de chacun. Nous voulons définitivement simplifier la recherche d'emploi en se recentrant sur les rencontres humaines.",
 	"photo": "http://localhost:3001/img/Michael.jpg",
 	"city": "Paris",
 	"loc": {
@@ -594,7 +594,7 @@
 	"lastConnection": 1463881966,
 	"announces": [{
 		"title": "Community Manager",
-		"description": "Meetgenius est une jeune startup créé pour faciliter l'embauche des entreprises et la recherche d'emploi des des candidats. Vous êtes à l'aise avec l'utilisation des réseaux sociaux, des outils communication et savez organisez des dispositifs web sociaux.",
+		"description": "Geniuz est une jeune startup créé pour faciliter l'embauche des entreprises et la recherche d'emploi des des candidats. Vous êtes à l'aise avec l'utilisation des réseaux sociaux, des outils communication et savez organisez des dispositifs web sociaux.",
 		"competences": [{
 			"name": "Marketing / Communication",
 			"level": "Expert"
