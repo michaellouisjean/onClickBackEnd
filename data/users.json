@@ -3,7 +3,7 @@
 	"status": "candidate",
 	"firstname": "Annaelle",
 	"lastname": "Lawson",
-	"description": "Bonjour, je m'appelle Annaelle. Je suis une jeune française de 29ans qui travaille actuellement dans le domaine informatique. Je suis passionnée d'informatique (forcément!) et j'adore tout ce qui s'y rattache. J'aime également lire, le yoga et voyager! Au plaisir de parler de vive voix",
+	"description": "Bonjour, je m'appelle Annaelle. Je travaille actuellement dans le domaine informatique. Je suis passionnée d'informatique (forcément!) et j'adore tout ce qui s'y rattache. J'aime également lire, le yoga et voyager! Au plaisir de vous parler de vive voix",
 	"photo": "http://localhost:3001/img/Aurore.jpg",
 	"city": "Paris",
 	"loc": {
