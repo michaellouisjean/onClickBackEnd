@@ -7,7 +7,14 @@ var upload = multer({ dest: 'public/uploads/' });
 var mongoose = require('mongoose');
 
 var User = require("../models/User.js");
+
 var nearDist = 500; // Périmètre de recherche des utilisateurs
+// getRadians transforme une distance en mètres en radians pour la géolocalisation
+function getRadians(meters) {
+  var km = meters / 1000;
+  return km / 111.2;
+} // getRadians
+
 
 router.post("/sign_up", function(req, res) {
   User.register(
@@ -21,17 +28,16 @@ router.post("/sign_up", function(req, res) {
     function(err, user) {
       if (err) {
         console.error(err);
-        // TODO test
         res.status(400).json({ error: err.message });
       } else {
         res.json({ _id: user._id, token: user.token, status: user.status });
       }
     }
   );
-});
+}); // routeur.post /signup
 
+// Au login : authentification de l'utilisateur et récupération de ses données
 router.post("/log_in", function(req, res, next) {
-  console.log('routes#user#log_in');
   passport.authenticate("local", { session: false }, function(err, user, info) {
     if (err) {
       res.status(400);
@@ -60,13 +66,11 @@ router.post("/log_in", function(req, res, next) {
       favorites: user.favorites
     });
   })(req, res, next);
-});
+}); // router.post /log_in
 
-function getRadians(meters) {
-  var km = meters / 1000;
-  return km / 111.2;
-}
-
+// Si l'utilisateur est un candidat
+// Recherche des recruteurs / annonces autour de lui avec latitude / longitude
+// grâce à la requête near
 router.get('/recruiters', function (req,res,next) {
   if (!req.query.lng || !req.query.lat) {
     return next("Latitude and longitude are mandatory");
@@ -90,8 +94,11 @@ router.get('/recruiters', function (req,res,next) {
       res.status(400);
       return next(err.message);
     });
-}); // router.get /announces
+}); // router.get /recruiters
 
+// Si l'utilisateur est un recruteur
+// Recherche des candidats autour de lui avec latitude / longitude
+// grâce à la requête near
 router.get('/candidates', function (req,res,next) {
   if (!req.query.lng || !req.query.lat) {
     return next("Latitude and longitude are mandatory");
@@ -117,6 +124,7 @@ router.get('/candidates', function (req,res,next) {
     });
 }); // router.get /candidates
 
+// Ajoute ou retire des utilisateurs de la liste de favoris
 router.post("/favorites", function (req,res,next) {
   const iduser = req.query._iduser;
   const idfavorite = req.query._idfavorite;
@@ -135,7 +143,7 @@ router.post("/favorites", function (req,res,next) {
         .exec();
       }
     });
-});
+}); // router.post /favorites
 
 // Routes pour mise à jour des profils
 /*router.post("/:id/update_candidate", upload.single('photo'), function(req, res) {
@@ -192,6 +200,7 @@ router.post("/:id/update_recruiter", upload.single('photo'), function(req, res) 
   });
 });*/
 
+// Récupère les données d'un utilisateur
 router.get("/:id", function(req, res, next) {
   User.findById(req.params.id)
     .exec()
@@ -207,8 +216,9 @@ router.get("/:id", function(req, res, next) {
       res.status(400);
       return next(err.message);
     });
-});
+}); // router.get /:id
 
+// Récupère la liste des favoris d'un utilisateur avec leurs données (populate)
 router.get("/:id/favorites", function(req,res,next) {
   User.findById(req.params.id)
     .populate("favorites", ['-token'])
@@ -225,8 +235,9 @@ router.get("/:id/favorites", function(req,res,next) {
       res.status(400);
       return next(err.message);
     });
-});
+}); // router.get /:id/favorites
 
+// Récupère la liste des messages d'un utilisateur avec les données de l'interlocuteur (populate)
 router.get("/:id/messages", function(req,res,next) {
   User.findById(req.params.id)
     .populate("messages.id_speaker", ['-token'])
@@ -243,6 +254,6 @@ router.get("/:id/messages", function(req,res,next) {
       res.status(400);
       return next(err.message);
     });
-});
+}); // route.get /:id/messages
 
 module.exports = router;
